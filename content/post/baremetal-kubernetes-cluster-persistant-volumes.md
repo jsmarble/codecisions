@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T10:13:13Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-persistant-volumes"
-title = "Baremetal Kubernetes Cluster - Persistent Volumes"
-
-+++
+---
+date: "2019-11-07T10:13:13Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-persistant-volumes
+title: Baremetal Kubernetes Cluster - Persistent Volumes
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-helm/), we installed Helm to make deployments easier. In this post, we'll start configuring our new Kubernetes (k8s) cluster by setting up persistent storage.

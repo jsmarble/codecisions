@@ -1,11 +1,10 @@
-+++
-date = 2012-10-24T20:51:22Z
-description = ""
-draft = false
-slug = "stacking-multiple-ivalueconverters"
-title = "Stacking Multiple IValueConverters"
-
-+++
+---
+date: "2012-10-24T20:51:22Z"
+description: ""
+draft: false
+slug: stacking-multiple-ivalueconverters
+title: Stacking Multiple IValueConverters
+---
 
 
 ## Problem

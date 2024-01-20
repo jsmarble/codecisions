@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T11:05:07Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-ingress-controller"
-title = "Baremetal Kubernetes Cluster - Ingress Controller"
-
-+++
+---
+date: "2019-11-07T11:05:07Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-ingress-controller
+title: Baremetal Kubernetes Cluster - Ingress Controller
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-networking-and-load-balancer/), we learned some Kubernetes networking concepts and added a Load Balancer to the cluster. In this post, we'll dive deeper into networking by creating an Ingress Controller.

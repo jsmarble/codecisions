@@ -1,11 +1,10 @@
-+++
-date = 2008-09-08T16:05:00Z
-description = ""
-draft = false
-slug = "dropbox-beta-invitation"
-title = "Dropbox Beta Invitation"
-
-+++
+---
+date: "2008-09-08T16:05:00Z"
+description: ""
+draft: false
+slug: dropbox-beta-invitation
+title: Dropbox Beta Invitation
+---
 
 
 I just received a beta invitation to the [Dropbox](http://www.getdropbox.com/) file sync, store, and share service. I signed up and installed the software and I have to say it works pretty slick.

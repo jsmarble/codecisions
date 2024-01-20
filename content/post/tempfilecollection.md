@@ -1,11 +1,10 @@
-+++
-date = 2008-07-14T18:07:00Z
-description = ""
-draft = false
-slug = "tempfilecollection"
-title = "TempFileCollection"
-
-+++
+---
+date: "2008-07-14T18:07:00Z"
+description: ""
+draft: false
+slug: tempfilecollection
+title: TempFileCollection
+---
 
 
 In [Scott Hanselman’s post](http://www.hanselman.com/blog/BackToBasicsEveryoneRememberWhereWeParkedThatMemory.aspx) on Garbage Collector and issues involved with playing sounds, I noticed a framework class, [TempFileCollection](http://msdn.microsoft.com/en-us/library/system.codedom.compiler.tempfilecollection.aspx), which I had never seen. He barely even mentioned it, not really giving much information about it, so I looked it up myself to see what it offers. You can read the [MSDN entry](http://msdn.microsoft.com/en-us/library/system.codedom.compiler.tempfilecollection.aspx) on the class if you want the details, but I’m going to offer some quick information that I learned when trying the class in a console app. The class does not offer anything you can’t handle yourself, but then again that’s the point of the .Net framework. One caveat that I found was when using the [AddExtension](http://msdn.microsoft.com/en-us/library/68yd12wb.aspx) method, passing in the file extension. When passing an extension of “tmp”, I got an exception saying the file had already been added to the collection, which is odd because I just created the collection. Upon closer inspection, I found that the first time the BasePath is accessed, it ensures that the temp path is set, and when doing so adds a temp file with the “tmp” extension. Since the BasePath property is accessed before any attempt to add a file to the collection, it is impossible to add a file with the “tmp” extension. However, if you try to access the pre-loaded item in the list, you’ll find two things.

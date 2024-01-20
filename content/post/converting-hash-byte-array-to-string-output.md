@@ -1,11 +1,10 @@
-+++
-date = 2011-10-18T12:00:00Z
-description = ""
-draft = false
-slug = "converting-hash-byte-array-to-string-output"
-title = "Converting Hash Byte Array To String Output"
-
-+++
+---
+date: "2011-10-18T12:00:00Z"
+description: ""
+draft: false
+slug: converting-hash-byte-array-to-string-output
+title: Converting Hash Byte Array To String Output
+---
 
 
 Years ago, when I was learning how to use C# to calculate hash values, I learned that to properly output the byte array of a hash (or any other byte array) you had to iterate each byte and call byte.ToString(“X2”) method for the proper formatting, adding each byte string to a StringBuilder.

@@ -1,11 +1,10 @@
-+++
-date = 2010-04-08T12:00:00Z
-description = ""
-draft = false
-slug = "enumerating-idatareader-with-linq"
-title = "Enumerating IDataReader With LINQ"
-
-+++
+---
+date: "2010-04-08T12:00:00Z"
+description: ""
+draft: false
+slug: enumerating-idatareader-with-linq
+title: Enumerating IDataReader With LINQ
+---
 
 
 Today a coworker was trying to read an [IDataReader](http://msdn.microsoft.com/en-us/library/system.data.idatareader.aspx) into an anonymous type for an internal tool. This got me thinking about how [LINQ](http://msdn.microsoft.com/en-us/library/bb308959.aspx) methods could be useful when working with a DataReader since it’s basically a collection of records that you enumerate. In thinking about this, I came up with the DataReaderEnumerable class.

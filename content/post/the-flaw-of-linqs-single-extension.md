@@ -1,11 +1,10 @@
-+++
-date = 2012-03-06T14:00:00Z
-description = ""
-draft = false
-slug = "the-flaw-of-linqs-single-extension"
-title = "The Flaw of LINQ's Single Extension"
-
-+++
+---
+date: "2012-03-06T14:00:00Z"
+description: ""
+draft: false
+slug: the-flaw-of-linqs-single-extension
+title: The Flaw of LINQ's Single Extension
+---
 
 
 The purpose of the `Single` extension methods is to thrown an exception if more than one item matches the query (or, in the parameterless implementation, more than one item exists in the enumerable). It seems obvious then that the method should stop enumerating once finding the second match, throwing the appropriate exception. And indeed this is how the parameterless implementation behaves.

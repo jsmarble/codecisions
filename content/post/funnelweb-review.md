@@ -1,11 +1,10 @@
-+++
-date = 2013-04-12T15:42:29Z
-description = ""
-draft = false
-slug = "funnelweb-review"
-title = "FunnelWeb Review"
-
-+++
+---
+date: "2013-04-12T15:42:29Z"
+description: ""
+draft: false
+slug: funnelweb-review
+title: FunnelWeb Review
+---
 
 
 In my [Blog Refresh](http://www.codecisions.com/blog-refresh/ "Blog Refresh") post I talked about moving back to [BlogEngine.Net](http://www.dotnetblogengine.net) on Arvixe. I used BlogEngine.net for a while but wanted to update to a new version. I had experienced some issues previously with BlogEngine.net upgrades, but always managed to get through it. This time, however, I could not get around my problem (sadly I don’t recall what the problem was since it was years ago).

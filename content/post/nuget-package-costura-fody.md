@@ -1,11 +1,10 @@
-+++
-date = 2016-10-19T23:53:00Z
-description = ""
-draft = false
-slug = "nuget-package-costura-fody"
-title = "NuGet Package: Costura.Fody"
-
-+++
+---
+date: "2016-10-19T23:53:00Z"
+description: ""
+draft: false
+slug: nuget-package-costura-fody
+title: 'NuGet Package: Costura.Fody'
+---
 
 
 I was writing a small tool recently and wanted to give it to some people in the office to use, but I wanted it to be simple. I was going to put it out on a network share, but I didn't like how I needed a folder with all the dependencies, which inevitably raises questions of which file to run. I thought it would be nice to just bundle it all up into a single executable.

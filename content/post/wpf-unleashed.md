@@ -1,11 +1,10 @@
-+++
-date = 2008-10-27T12:00:00Z
-description = ""
-draft = false
-slug = "wpf-unleashed"
-title = "WPF Unleashed"
-
-+++
+---
+date: "2008-10-27T12:00:00Z"
+description: ""
+draft: false
+slug: wpf-unleashed
+title: WPF Unleashed
+---
 
 
 At work we bought two WPF books a while back in order to make sure we’re up to date on the latest development technologies. It seems to me like development books are really varying in quality and usefulness. I had started to read one of the books, “[Applications = Code + Markup](http://www.amazon.com/gp/product/0735619573?ie=UTF8&tag=marblog-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0735619573)”, but it was quite useless in my opinion and I just couldn’t get anything out of it. In fact, it didn’t even discuss XAML until half way in (I skimmed). It was a very C# procedural approach to a cool declarative technology.

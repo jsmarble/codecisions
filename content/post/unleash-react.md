@@ -1,11 +1,10 @@
-+++
-date = 2021-06-23T22:49:28Z
-description = ""
-draft = false
-slug = "unleash-react"
-title = "Unleash React - What is Feature Flagging?"
-
-+++
+---
+date: "2021-06-23T22:49:28Z"
+description: ""
+draft: false
+slug: unleash-react
+title: Unleash React - What is Feature Flagging?
+---
 
 
 [Feature flags](https://www.martinfowler.com/articles/feature-toggles.html) are a powerful tool in the developer's toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This makes the deployed code less volatile and provides an easy way to rollout and rollback code changes with less impact and risk.

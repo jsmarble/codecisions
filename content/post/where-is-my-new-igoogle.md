@@ -1,11 +1,10 @@
-+++
-date = 2008-10-31T15:21:00Z
-description = ""
-draft = false
-slug = "where-is-my-new-igoogle"
-title = "Where Is My New iGoogle"
-
-+++
+---
+date: "2008-10-31T15:21:00Z"
+description: ""
+draft: false
+slug: where-is-my-new-igoogle
+title: Where Is My New iGoogle
+---
 
 
 Several months ago I was (randomly) given the new iGoogle homepage before it was released. I liked the changes and got used to the new interface. However, a while back, around the time they released the new iGoogle design publicly, my iGoogle reverted to the old design.

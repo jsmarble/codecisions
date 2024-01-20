@@ -1,11 +1,10 @@
-+++
-date = 2014-11-24T16:48:41Z
-description = ""
-draft = false
-slug = "finding-versions-of-mscordacwks-dll"
-title = "Finding Versions of mscordacwks.dll"
-
-+++
+---
+date: "2014-11-24T16:48:41Z"
+description: ""
+draft: false
+slug: finding-versions-of-mscordacwks-dll
+title: Finding Versions of mscordacwks.dll
+---
 
 
 In my post on [Debugging Different SOS Versions With WinDBG](http://www.codecisions.com/debugging-different-sos-versions-with-windbg/), I wrote how you often will need a different version of mscordacwks.dll, but I skipped over the part about how to obtain the version you need.

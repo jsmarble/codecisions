@@ -1,11 +1,10 @@
-+++
-date = 2014-01-20T19:23:46Z
-description = ""
-draft = false
-slug = "debugging-different-sos-versions-with-windbg"
-title = "Debugging Different SOS Versions With WinDBG"
-
-+++
+---
+date: "2014-01-20T19:23:46Z"
+description: ""
+draft: false
+slug: debugging-different-sos-versions-with-windbg
+title: Debugging Different SOS Versions With WinDBG
+---
 
 
 Debugging memory dump files from .Net processes with WinDbg is always an adventure. I have below a solution to the common problem of CLR version mismatching. But first, I will give a quick introduction to WinDbg and memory dumps for those new to the topic.

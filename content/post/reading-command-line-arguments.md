@@ -1,11 +1,10 @@
-+++
-date = 2009-09-11T19:46:30Z
-description = ""
-draft = false
-slug = "reading-command-line-arguments"
-title = "Reading Command Line Arguments"
-
-+++
+---
+date: "2009-09-11T19:46:30Z"
+description: ""
+draft: false
+slug: reading-command-line-arguments
+title: Reading Command Line Arguments
+---
 
 
 If you write very many command line utilities, you have likely had to read command line arguments many times. Since this is very much the same thing every time, it seems like a waste to write rigid and app-specific arg parsing to each program.

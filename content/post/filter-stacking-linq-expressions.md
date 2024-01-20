@@ -1,11 +1,10 @@
-+++
-date = 2009-12-23T14:00:00Z
-description = ""
-draft = false
-slug = "filter-stacking-linq-expressions"
-title = "Filter Stacking LINQ Expressions"
-
-+++
+---
+date: "2009-12-23T14:00:00Z"
+description: ""
+draft: false
+slug: filter-stacking-linq-expressions
+title: Filter Stacking LINQ Expressions
+---
 
 
 Recently I was attempting to devise a way to filter down a large list with user generated conditions. These could be handled different ways depending on user input, so I couldn’t use a predefined lambda expression to filter the collection. What I wanted was a way to build an unknown number of lambda expressions from the user input and use them to filter the collection.

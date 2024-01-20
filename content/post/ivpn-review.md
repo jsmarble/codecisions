@@ -1,11 +1,10 @@
-+++
-date = 2014-04-07T14:26:29Z
-description = ""
-draft = false
-slug = "ivpn-review"
-title = "IVPN Review"
-
-+++
+---
+date: "2014-04-07T14:26:29Z"
+description: ""
+draft: false
+slug: ivpn-review
+title: IVPN Review
+---
 
 
 I decided I wanted to get a VPN service that I could use to protect my privacy and security on the internet. This isn’t so much an issue at home as it is on public wi-fi, but I figured it wouldn’t hurt to protect my privacy at home, too. These initial uses led me to a few requirements.

@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T11:45:10Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-final-thoughts"
-title = "Baremetal Kubernetes Cluster - Final Thoughts"
-
-+++
+---
+date: "2019-11-07T11:45:10Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-final-thoughts
+title: Baremetal Kubernetes Cluster - Final Thoughts
+---
 
 
 This is the conclusion of [a series on creating a Kubernetes cluster](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/). In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-deploying-an-application/), we deployed an application to the Kubernetes (k8s) cluster and saw everything working end-to-end.

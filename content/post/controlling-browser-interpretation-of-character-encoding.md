@@ -1,11 +1,10 @@
-+++
-date = 2013-06-21T14:45:41Z
-description = ""
-draft = false
-slug = "controlling-browser-interpretation-of-character-encoding"
-title = "Controlling Browser Interpretation of Character Encoding"
-
-+++
+---
+date: "2013-06-21T14:45:41Z"
+description: ""
+draft: false
+slug: controlling-browser-interpretation-of-character-encoding
+title: Controlling Browser Interpretation of Character Encoding
+---
 
 
 This article is about character encoding, but I thought it would be beneficial to give some background on what I’m doing.

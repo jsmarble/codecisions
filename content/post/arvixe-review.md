@@ -1,11 +1,10 @@
-+++
-date = 2013-04-08T19:48:40Z
-description = ""
-draft = false
-slug = "arvixe-review"
-title = "Arvixe Review"
-
-+++
+---
+date: "2013-04-08T19:48:40Z"
+description: ""
+draft: false
+slug: arvixe-review
+title: Arvixe Review
+---
 
 
 In my [previous post](__GHOST_URL__/blog-refresh/) I mentioned that [Arvixe](http://www.arvixe.com) was a good and cheap web host. They provide a good set of features for a low price for Windows hosting. I used Arvixe for almost two years to host the BlogEngine.net and FunnelWeb platforms for this site. This review is from the perspective of a low traffic website for low cost.

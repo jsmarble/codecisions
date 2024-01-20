@@ -1,11 +1,10 @@
-+++
-date = 2015-07-09T19:31:41Z
-description = ""
-draft = false
-slug = "disposing-of-interfaces"
-title = "Disposing of Interfaces"
-
-+++
+---
+date: "2015-07-09T19:31:41Z"
+description: ""
+draft: false
+slug: disposing-of-interfaces
+title: Disposing of Interfaces
+---
 
 
 Sometimes you run across situations where there is just no good solution. No matter which option you choose, there are downsides. I found one such situation today when trying to design an interface. The code below are simple examples I wrote for the purposes of this post.

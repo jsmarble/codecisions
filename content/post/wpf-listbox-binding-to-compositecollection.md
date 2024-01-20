@@ -1,11 +1,10 @@
-+++
-date = 2011-09-01T12:00:00Z
-description = ""
-draft = false
-slug = "wpf-listbox-binding-to-compositecollection"
-title = "WPF ListBox Binding to CompositeCollection"
-
-+++
+---
+date: "2011-09-01T12:00:00Z"
+description: ""
+draft: false
+slug: wpf-listbox-binding-to-compositecollection
+title: WPF ListBox Binding to CompositeCollection
+---
 
 
 I was using ListBox to display data bound to a collection, but I also wanted to be able to have an Add New item at the bottom of the list that the user could click to add a new item to the end of the list.

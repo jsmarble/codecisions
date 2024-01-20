@@ -1,11 +1,10 @@
-+++
-date = 2014-01-14T14:35:00Z
-description = ""
-draft = false
-slug = "the-context-pattern"
-title = "The Context Pattern"
-
-+++
+---
+date: "2014-01-14T14:35:00Z"
+description: ""
+draft: false
+slug: the-context-pattern
+title: The Context Pattern
+---
 
 
 I have found myself enjoying a certain coding pattern lately, so I thought it would be a good opportunity for a new post.

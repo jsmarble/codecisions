@@ -1,11 +1,10 @@
-+++
-date = 2008-08-07T14:08:00Z
-description = ""
-draft = false
-slug = "blog-authoring-tools"
-title = "Blog Authoring Tools"
-
-+++
+---
+date: "2008-08-07T14:08:00Z"
+description: ""
+draft: false
+slug: blog-authoring-tools
+title: Blog Authoring Tools
+---
 
 
 I am a big fan of offline blog entry writing, especially since most web-based editors leave a lot to be desired and can be quite buggy. It didn't take long with the [WordPress](http://www.wordpress.org/) editor for me to know I couldn't actually use it to write anything. I was more hopeful with the [BlogEngine.net](http://www.dotnetblogengine.net/) editor, which is nicer than in WordPress, but it still wasn't viable for any real authoring. Knowing that I wanted a simple but featured offline editor, I went on a quest to find all the offerings that were available.

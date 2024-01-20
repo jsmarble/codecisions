@@ -1,11 +1,10 @@
-+++
-date = 2019-11-06T02:12:35Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-start-to-finish"
-title = "Baremetal Kubernetes Cluster - Start to Finish"
-
-+++
+---
+date: "2019-11-06T02:12:35Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-start-to-finish
+title: Baremetal Kubernetes Cluster - Start to Finish
+---
 
 
 When I first setup my [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) (k8s) cluster in my [homelab](https://b3n.org/homelab-ideas/), it was a big undertaking and an arduous learning experience. It's been running solidly for months, but I recently tried upgrading a bit too bleeding edge, and it stopped working. After some unsuccessful attempts at recovery, I decided to rebuild the entire cluster.

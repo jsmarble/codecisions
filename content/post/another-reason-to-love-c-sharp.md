@@ -1,11 +1,10 @@
-+++
-date = 2008-08-19T16:11:13Z
-description = ""
-draft = false
-slug = "another-reason-to-love-c-sharp"
-title = "Another Reason to Love C#"
-
-+++
+---
+date: "2008-08-19T16:11:13Z"
+description: ""
+draft: false
+slug: another-reason-to-love-c-sharp
+title: Another Reason to Love C#
+---
 
 
 It’s been a while since I’ve had a programming post, so here’s a quick one. Just to show the flexibility of C#, check out the code for the Control.CanSelectCore() method in C#.

@@ -1,11 +1,10 @@
-+++
-date = 2015-01-16T20:29:25Z
-description = ""
-draft = false
-slug = "waittimeout-a-solution-for-waiting"
-title = "WaitTimeout - A Solution For Waiting"
-
-+++
+---
+date: "2015-01-16T20:29:25Z"
+description: ""
+draft: false
+slug: waittimeout-a-solution-for-waiting
+title: WaitTimeout - A Solution For Waiting
+---
 
 
 I recently found myself needing to periodically check the status of another operation, waiting for it to finish. In pseudocode, the basic operation is similar to this:

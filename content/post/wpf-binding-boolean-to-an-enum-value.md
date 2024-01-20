@@ -1,11 +1,10 @@
-+++
-date = 2013-04-09T14:57:34Z
-description = ""
-draft = false
-slug = "wpf-binding-boolean-to-an-enum-value"
-title = "WPF Binding Boolean to an Enum Value"
-
-+++
+---
+date: "2013-04-09T14:57:34Z"
+description: ""
+draft: false
+slug: wpf-binding-boolean-to-an-enum-value
+title: WPF Binding Boolean to an Enum Value
+---
 
 
 Imagine the situation where you have three radio buttons in a Window. You want the selection of those radio buttons to be bound to a single `enum` value where the `enum` contains values for each of the radio button options.

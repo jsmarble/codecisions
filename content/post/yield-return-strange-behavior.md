@@ -1,11 +1,10 @@
-+++
-date = 2008-10-29T15:53:00Z
-description = ""
-draft = false
-slug = "yield-return-strange-behavior"
-title = "Yield Return Strange Behavior"
-
-+++
+---
+date: "2008-10-29T15:53:00Z"
+description: ""
+draft: false
+slug: yield-return-strange-behavior
+title: Yield Return Strange Behavior
+---
 
 
 I was working on generating some test data today and realize something about “yield return” that troubles me. It seems to call the iteration code multiple times. Examples are the easiest way to demonstrate this behavior, so check the console application below.

@@ -1,11 +1,10 @@
-+++
-date = 2009-04-07T19:50:00Z
-description = ""
-draft = false
-slug = "blogenginenet-15-release-candidate"
-title = "BlogEngine.Net 1.5 Release Candidate"
-
-+++
+---
+date: "2009-04-07T19:50:00Z"
+description: ""
+draft: false
+slug: blogenginenet-15-release-candidate
+title: BlogEngine.Net 1.5 Release Candidate
+---
 
 
 I read [Al Nyveldt’s post](http://www.nyveldt.com/blog/post/BlogEngineNET-15-Release-Candidate-available.aspx) that a BlogEngine.Net 1.5 Release Candidate is available and immediately thought to download it and try it. Since my blog is very low traffic and not critical, I had no concerns about trying out the new version.

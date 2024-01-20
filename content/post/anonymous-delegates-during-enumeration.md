@@ -1,11 +1,10 @@
-+++
-date = 2009-09-30T15:04:09Z
-description = ""
-draft = false
-slug = "anonymous-delegates-during-enumeration"
-title = "Anonymous Delegates During Enumeration"
-
-+++
+---
+date: "2009-09-30T15:04:09Z"
+description: ""
+draft: false
+slug: anonymous-delegates-during-enumeration
+title: Anonymous Delegates During Enumeration
+---
 
 
 I had no idea what to title this post, but that’s the best I could come up with. I want to highlight an interesting scenario that can occur when trying to use anonymous delegates while enumerating a collection.

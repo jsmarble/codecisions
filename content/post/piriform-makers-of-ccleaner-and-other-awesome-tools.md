@@ -1,11 +1,10 @@
-+++
-date = 2008-12-17T14:46:31Z
-description = ""
-draft = false
-slug = "piriform-makers-of-ccleaner-and-other-awesome-tools"
-title = "Piriform – Makers of CCleaner And Other Awesome Tools"
-
-+++
+---
+date: "2008-12-17T14:46:31Z"
+description: ""
+draft: false
+slug: piriform-makers-of-ccleaner-and-other-awesome-tools
+title: Piriform – Makers of CCleaner And Other Awesome Tools
+---
 
 
 I first heard of [CCleaner](http://www.ccleaner.com) from [Scott Hanselman](http://www.hanselman.com) in his “[The Developer’s Quitting Your Job Technology Checklist](http://www.hanselman.com/blog/TheDevelopersQuittingYourJobTechnologyChecklist.aspx)”. It since has been updated regularly and has many nice and useful features, all for free. CCleaner is developed by [Piriform](http://www.piriform.com), a company dedicated to providing quality software for free. CCLeaner gets some pretty good press on tech blogs, but I don’t see a lot of mention of Piriform’s other awesome free software, [Defraggler](http://www.defraggler.com/) and [Recuva](http://www.recuva.com/).

@@ -1,11 +1,10 @@
-+++
-date = 2013-04-17T01:28:29Z
-description = ""
-draft = false
-slug = "google-has-terrible-customer-service"
-title = "Google Has Terrible Customer Service"
-
-+++
+---
+date: "2013-04-17T01:28:29Z"
+description: ""
+draft: false
+slug: google-has-terrible-customer-service
+title: Google Has Terrible Customer Service
+---
 
 
 Google has terrible customer service. Big surprise, right? Yes, I know I’m getting many things for free. I don’t dispute that. My problem is when they are happy to charge me money but not provide any support related to those charges.

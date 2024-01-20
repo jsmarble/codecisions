@@ -1,11 +1,10 @@
-+++
-date = 2008-11-06T19:06:00Z
-description = ""
-draft = false
-slug = "the-action-delegate"
-title = "The Action Delegate"
-
-+++
+---
+date: "2008-11-06T19:06:00Z"
+description: ""
+draft: false
+slug: the-action-delegate
+title: The Action Delegate
+---
 
 
 If you do any asynchronous work in Windows Forms, you’ve probably used the [MethodInvoker](http://msdn.microsoft.com/en-us/library/bwabdf9z.aspx) delegate a fair amount to invoke a method asynchronously. It’s convenient to have a built-in framework delegate so you aren’t defining your own everywhere. But what about when you’re not in the System.Windows.Forms namespace?

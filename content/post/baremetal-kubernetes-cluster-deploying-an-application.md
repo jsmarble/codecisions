@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T11:18:17Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-deploying-an-application"
-title = "Baremetal Kubernetes Cluster - Deploying An Application"
-
-+++
+---
+date: "2019-11-07T11:18:17Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-deploying-an-application
+title: Baremetal Kubernetes Cluster - Deploying An Application
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-ingress-controller/), we dove deeper into Kubernetes networking and created an Ingress Controller to make our Services accessible. In this post, we'll be deploying an application to the Kubernetes (k8s) cluster.

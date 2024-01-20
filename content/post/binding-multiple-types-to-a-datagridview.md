@@ -1,11 +1,10 @@
-+++
-date = 2008-09-23T13:56:00Z
-description = ""
-draft = false
-slug = "binding-multiple-types-to-a-datagridview"
-title = "Binding Multiple Types To A DataGridView"
-
-+++
+---
+date: "2008-09-23T13:56:00Z"
+description: ""
+draft: false
+slug: binding-multiple-types-to-a-datagridview
+title: Binding Multiple Types To A DataGridView
+---
 
 
 I’ve been having a problem lately with DataGridView binding. I have an interface (IAllergen) which is implemented by three different classes (Drug, DrugIngredient, and AllergenGroup). I want to bind a BindingList<object> to a DataGridView that has a column for one of the properties of IAllergen.

@@ -1,11 +1,10 @@
-+++
-date = 2012-05-23T02:27:01Z
-description = ""
-draft = false
-slug = "custom-ivalueconverter-for-binding-a-wpf-textbox-to-an-integer"
-title = "Use A Custom IValueConverter To Bind A WPF TextBox To An Integer"
-
-+++
+---
+date: "2012-05-23T02:27:01Z"
+description: ""
+draft: false
+slug: custom-ivalueconverter-for-binding-a-wpf-textbox-to-an-integer
+title: Use A Custom IValueConverter To Bind A WPF TextBox To An Integer
+---
 
 
 In a WPF application, I had a `TextBox` bound to an integer property of a class. The `TextBox` only allows numeric input. The binding worked as expected except when the text was cleared. I found that when I cleared the text on my WPF `TextBox`, the binding would fail because it could not convert an empty string to an integer. This caused the previous value of the integer to remain set. If the application then took action on the integer property, it wasn’t apparent that it didn’t correctly reflect the user input.

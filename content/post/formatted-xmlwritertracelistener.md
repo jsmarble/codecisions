@@ -1,11 +1,10 @@
-+++
-date = 2011-02-25T14:00:00Z
-description = ""
-draft = false
-slug = "formatted-xmlwritertracelistener"
-title = "Formatted XmlWriterTraceListener"
-
-+++
+---
+date: "2011-02-25T14:00:00Z"
+description: ""
+draft: false
+slug: formatted-xmlwritertracelistener
+title: Formatted XmlWriterTraceListener
+---
 
 
 I was wanting the output of the [`XmlWriterTraceListener`](http://msdn.microsoft.com/en-us/library/system.diagnostics.xmlwritertracelistener.aspx) to be formatted, so I figured I could just adjust some settings similar to the [`XmlWriter`](http://msdn.microsoft.com/en-us/library/system.xml.xmlwriter.aspx) class and get formatting, indentation, etc. However, upon viewing the `XmlWriterTraceListener` code in [Reflector](http://www.red-gate.com/products/dotnet-development/reflector/), I found that it writes out its XML using a plain `TextWriter`, which means no intelligent XML formatting. I imagine this is for performance reasons or some other good reason, but if you really want or need formatted log output, you’re out of luck.

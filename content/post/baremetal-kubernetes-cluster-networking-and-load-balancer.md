@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T10:54:26Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-networking-and-load-balancer"
-title = "Baremetal Kubernetes Cluster - Networking and Load Balancer"
-
-+++
+---
+date: "2019-11-07T10:54:26Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-networking-and-load-balancer
+title: Baremetal Kubernetes Cluster - Networking and Load Balancer
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-persistant-volumes/), we provisioned the persistent storage for our applications. In this post, we'll start to build out the networking stack for our cluster.

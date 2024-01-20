@@ -1,11 +1,10 @@
-+++
-date = 2023-08-20T02:32:55Z
-description = ""
-draft = false
-slug = "connecting-a-serial-terminal-to-a-proxmox-virtual-machine"
-title = "Connecting a Serial Terminal to a Proxmox Virtual Machine"
-
-+++
+---
+date: "2023-08-20T02:32:55Z"
+description: ""
+draft: false
+slug: connecting-a-serial-terminal-to-a-proxmox-virtual-machine
+title: Connecting a Serial Terminal to a Proxmox Virtual Machine
+---
 
 
 When connecting to Virtual Machines or Linux servers in general, `ssh` is the obvious standard in remote terminals. However, if you need to monitor boot output, connect to a machine without a working network connection, or keep a virtual machine [air-gapped](https://www.thesslstore.com/blog/air-gapped-computer/) then a serial terminal may be just the answer you are looking for.

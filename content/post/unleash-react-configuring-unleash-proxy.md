@@ -1,11 +1,10 @@
-+++
-date = 2021-06-24T02:03:12Z
-description = ""
-draft = false
-slug = "unleash-react-configuring-unleash-proxy"
-title = "Unleash React - Configuring Unleash Proxy"
-
-+++
+---
+date: "2021-06-24T02:03:12Z"
+description: ""
+draft: false
+slug: unleash-react-configuring-unleash-proxy
+title: Unleash React - Configuring Unleash Proxy
+---
 
 
 This post is part of a series [__GHOST_URL__/unleash-react/] on adding feature

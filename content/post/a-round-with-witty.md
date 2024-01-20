@@ -1,11 +1,10 @@
-+++
-date = 2008-05-20T19:05:00Z
-description = ""
-draft = false
-slug = "a-round-with-witty"
-title = "A Round With Witty"
-
-+++
+---
+date: "2008-05-20T19:05:00Z"
+description: ""
+draft: false
+slug: a-round-with-witty
+title: A Round With Witty
+---
 
 
 Recently, I started using [Witty](http://wittytwitter.googlecode.com) to keep track of [Twitter](http://www.twitter.com) updates. Previously, I had been using the Twitter support in [Digsby](http://www.digsby.com), but despite my fondness of all things Digsby, I do find Witty to be a better overall Twitter experience. Plus, it has that sweet flashy [WPF](http://en.wikipedia.org/wiki/Windows_Presentation_Foundation) goodness.

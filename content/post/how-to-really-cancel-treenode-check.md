@@ -1,11 +1,10 @@
-+++
-date = 2010-03-16T12:00:00Z
-description = ""
-draft = false
-slug = "how-to-really-cancel-treenode-check"
-title = "How To Really Cancel TreeNode Check"
-
-+++
+---
+date: "2010-03-16T12:00:00Z"
+description: ""
+draft: false
+slug: how-to-really-cancel-treenode-check
+title: How To Really Cancel TreeNode Check
+---
 
 
 The [TreeView](http://msdn.microsoft.com/en-us/library/system.windows.forms.treeview.aspx) control can support checkboxes for nodes by setting the [CheckBoxes](http://msdn.microsoft.com/en-us/library/system.windows.forms.treeview.checkboxes.aspx) property to true. In my custom TreeView with checkboxes, I need to “disable” some nodes and not allow them to be checked. At quick glance, the [OnBeforeCheck](http://msdn.microsoft.com/en-us/library/system.windows.forms.treeview.onbeforecheck.aspx) virtual method seems to be the correct place to cancel the checking using the [TreeViewCancelEventArgs](http://msdn.microsoft.com/en-us/library/system.windows.forms.treeviewcanceleventargs.aspx) [.Cancel](http://msdn.microsoft.com/en-us/library/system.componentmodel.canceleventargs.cancel.aspx) property. If you have come to the same conclusion then let me confirm that you are indeed correct that this is the place to cancel node checking.

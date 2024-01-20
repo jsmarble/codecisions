@@ -1,11 +1,10 @@
-+++
-date = 2016-03-10T21:41:27Z
-description = ""
-draft = false
-slug = "datareader-extension-getnullable"
-title = "DataReader Extension GetNullable"
-
-+++
+---
+date: "2016-03-10T21:41:27Z"
+description: ""
+draft: false
+slug: datareader-extension-getnullable
+title: DataReader Extension GetNullable
+---
 
 
 It has always been a minor pain that fields in a database can be null while the same value type in .Net cannot be. If you wanted to read a nullable DateTime field in the database into your object’s DateTime property, the only choice was to check it for null first then read the field if not null.

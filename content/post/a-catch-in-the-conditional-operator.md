@@ -1,11 +1,10 @@
-+++
-date = 2009-11-02T14:00:00Z
-description = ""
-draft = false
-slug = "a-catch-in-the-conditional-operator"
-title = "A Catch in the Conditional Operator"
-
-+++
+---
+date: "2009-11-02T14:00:00Z"
+description: ""
+draft: false
+slug: a-catch-in-the-conditional-operator
+title: A Catch in the Conditional Operator
+---
 
 
 Have you ever seen a [conditional (ternary) operator](http://msdn.microsoft.com/en-us/library/ty67wk28.aspx) seemingly evaluate the condition incorrectly?

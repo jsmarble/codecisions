@@ -1,11 +1,10 @@
-+++
-date = 2019-11-06T02:13:41Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-creating-the-virtual-machines"
-title = "Baremetal Kubernetes Cluster - Creating the Virtual Machines"
-
-+++
+---
+date: "2019-11-06T02:13:41Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-creating-the-virtual-machines
+title: Baremetal Kubernetes Cluster - Creating the Virtual Machines
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In this post, we'll be creating the virtual machines and preparing them to install Kubernetes (k8s).
@@ -28,13 +27,13 @@ After you answer the basic region and user questions, you will be asked to parti
 
 {{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-5.png" caption="Create a new partition" >}}
 
-{{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-6.png" caption="Use all disk space or enter "max"" >}}
+{{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-6.png" caption="Use all disk space or enter 'max'" >}}
 
 {{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-7.png" caption="Create a Primary partition" >}}
 
-{{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-8-1.png" caption="Use the defaults and select "Done setting up the partition"" >}}
+{{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-8-1.png" caption="Use the defaults and select 'Done setting up the partition'" >}}
 
-{{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-9-1.png" caption="Select "Finish partitioning and write changes to disk"" >}}
+{{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-9-1.png" caption="Select 'Finish partitioning and write changes to disk'" >}}
 
 {{< figure src="__GHOST_URL__/content/images/2019/11/manual-partitioning-10.png" caption="Confirm you're not using a swap partition" >}}
 

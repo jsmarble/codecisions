@@ -1,11 +1,10 @@
-+++
-date = 2008-06-13T14:06:00Z
-description = ""
-draft = false
-slug = "restricting-generics-to-be-not-so-generic"
-title = "Restricting Generics To Be Not So Generic"
-
-+++
+---
+date: "2008-06-13T14:06:00Z"
+description: ""
+draft: false
+slug: restricting-generics-to-be-not-so-generic
+title: Restricting Generics To Be Not So Generic
+---
 
 
 Bear with me as this one might get long … Several times before I have run across a certain problem that I did not know how to handle. Allow me to describe the problem, then I’ll describe the two possible solutions to this problem and the inherent problems with each solution. Of course, what good would this post be without at least my final solution to these problems.

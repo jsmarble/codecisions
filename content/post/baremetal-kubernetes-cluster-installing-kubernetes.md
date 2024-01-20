@@ -1,11 +1,10 @@
-+++
-date = 2019-11-06T07:54:42Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-installing-kubernetes"
-title = "Baremetal Kubernetes Cluster - Installing Kubernetes"
-
-+++
+---
+date: "2019-11-06T07:54:42Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-installing-kubernetes
+title: Baremetal Kubernetes Cluster - Installing Kubernetes
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-creating-the-virtual-machines/), we installed Debian 10 onto four virtual machines that will be used in the cluster. In this post, we will be installing Kubernetes (k8s) on them.

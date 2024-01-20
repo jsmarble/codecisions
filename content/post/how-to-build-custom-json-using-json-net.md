@@ -1,11 +1,10 @@
-+++
-date = 2017-08-03T00:12:03Z
-description = ""
-draft = false
-slug = "how-to-build-custom-json-using-json-net"
-title = "How to Build Custom JSON Using JSON.Net"
-
-+++
+---
+date: "2017-08-03T00:12:03Z"
+description: ""
+draft: false
+slug: how-to-build-custom-json-using-json-net
+title: How to Build Custom JSON Using JSON.Net
+---
 
 
 The serializer from [JSON.Net](http://www.newtonsoft.com/json) is really good, and the default output from `JsonConvert.SerializeObject` will work for most situations, but sometimes you want fine control over the structure of your JSON. Fortunately, JSON.Net also includes an API for building out custom JSON. You will need the Nuget package [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) and add the namespace `Newtonsoft.Json.Linq`.

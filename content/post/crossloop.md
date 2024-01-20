@@ -1,11 +1,10 @@
-+++
-date = 2008-07-22T20:22:00Z
-description = ""
-draft = false
-slug = "crossloop"
-title = "CrossLoop"
-
-+++
+---
+date: "2008-07-22T20:22:00Z"
+description: ""
+draft: false
+slug: crossloop
+title: CrossLoop
+---
 
 
 I found a new remote assistance type program called [CrossLoop](http://www.crossloop.com). It’s basically a [TightVNC](http://www.tightvnc.com) wrapper that hooks two people up using a unique session id.

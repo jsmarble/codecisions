@@ -1,12 +1,12 @@
-+++
-date = 2023-09-27T03:23:52Z
-description = ""
-draft = false
-slug = "adding-spice-to-your-proxmox-virtual-machine"
-summary = "We may finally have a worthwhile alternative to Windows RDP on Linux. Enter SPICE!"
-title = "Adding SPICE to Your Proxmox Virtual Machine"
-
-+++
+---
+date: "2023-09-27T03:23:52Z"
+description: ""
+draft: false
+slug: adding-spice-to-your-proxmox-virtual-machine
+summary: We may finally have a worthwhile alternative to Windows RDP on Linux. Enter
+  SPICE!
+title: Adding SPICE to Your Proxmox Virtual Machine
+---
 
 
 If there's one thing that Windows indisputably has done better than Linux, it's remote access. Historically, nothing on Linux has worked as well as Microsoft Remote Desktop. VNC has never been a great experience, in my opinion, but if you wanted to run a VM with a Linux graphical desktop environment, it was the default option. This is especially true if your virtual environment is Proxmox.

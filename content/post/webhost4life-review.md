@@ -1,11 +1,10 @@
-+++
-date = 2008-07-21T18:50:00Z
-description = ""
-draft = false
-slug = "webhost4life-review"
-title = "WebHost4Life Review"
-
-+++
+---
+date: "2008-07-21T18:50:00Z"
+description: ""
+draft: false
+slug: webhost4life-review
+title: WebHost4Life Review
+---
 
 
 As I mentioned recently in my [post](__GHOST_URL__/blog/post/2008/07/16/From-Wordpress-To-BlogEngine.aspx) about switching to BlogEngine.net, I said that I was switching to an ASP.NET web host, [WebHost4Life](http://www.WebHost4Life.com/default.asp?refid=jsmarble). Now that it’s been a few weeks since I first signed up for WebHost4Life, I figured I could write a little review about my experiences so far.

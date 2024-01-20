@@ -1,11 +1,10 @@
-+++
-date = 2008-07-23T12:36:11Z
-description = ""
-draft = false
-slug = "blogenginenet-review"
-title = "BlogEngine.net Review"
-
-+++
+---
+date: "2008-07-23T12:36:11Z"
+description: ""
+draft: false
+slug: blogenginenet-review
+title: BlogEngine.net Review
+---
 
 
 In my [post](http://joshua.marblefamily.org/blog/post/2008/07/16/From-Wordpress-To-BlogEngine.aspx) about migrating from [WordPress](http://wordpress.com/) to [BlogEngine.net](http://dotnetblogengine.net/), I mentioned some migration issues I was having but I really didn’t go into any details about BlogEngine.net itself. So I thought I should follow up with my experience and enjoyment of BlogEngine.net as a blogging platform. I first found out about BlogEngine.net from [Brian Sullivan](http://sullivansoftdev.com/blog) and [Tim Franklin](http://famunit.com/). Brian had [good experiences](http://www.sullivansoftdev.com/blog/post/Switching-to-BlogEngineNET.aspx) with it compared to [dasBlog](http://dasblog.info/) and Tim Franklin [settled on it](http://famunit.com/post/FamUnit-v20-Launched.aspx) and made it look and function very nicely as a total content solution.

@@ -1,11 +1,10 @@
-+++
-date = 2008-07-16T15:49:00Z
-description = ""
-draft = false
-slug = "from-wordpress-to-blogengine"
-title = "From Wordpress To BlogEngine.net"
-
-+++
+---
+date: "2008-07-16T15:49:00Z"
+description: ""
+draft: false
+slug: from-wordpress-to-blogengine
+title: From Wordpress To BlogEngine.net
+---
 
 
 If you’ve seen some strange `RSS` activity recently, I apologize. I am wanting to get into `ASP.NET` (specifically the new `MVC` framework) since I don’t do web stuff at work and feel I ought to be better versed in it. My [former web host](http://jkahosting.com) was `Linux/PHP`, which worked fine for WordPress, but I was not really interested in `PHP` programming. So, I signed up for an account with [WebHost4Life](http://www.WebHost4Life.com/default.asp?refid=jsmarble) and at the same time restructured the family website. I decided that I didn’t like the subdomain of blogs.* but instead I wanted to have each family member (currently just myself) have their own subdomain and have the /blog folder setup under each subdomain. Fortunately, the use of FeedBurner allows me to keep the same feed URL for all you RSS subscribers, but unfortunately, I could find no way to prevent the duplication of RSS items after the import.

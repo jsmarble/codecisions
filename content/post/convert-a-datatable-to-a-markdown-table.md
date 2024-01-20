@@ -1,11 +1,10 @@
-+++
-date = 2017-01-16T04:43:22Z
-description = ""
-draft = false
-slug = "convert-a-datatable-to-a-markdown-table"
-title = "Convert a DataTable to a Markdown table"
-
-+++
+---
+date: "2017-01-16T04:43:22Z"
+description: ""
+draft: false
+slug: convert-a-datatable-to-a-markdown-table
+title: Convert a DataTable to a Markdown table
+---
 
 
 I am working on a project in which I want to export some tabular data in Markdown. I started writing methods to do this with each set of data, but that got to be tedious.

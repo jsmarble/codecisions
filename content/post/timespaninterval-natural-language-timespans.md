@@ -1,11 +1,10 @@
-+++
-date = 2016-09-02T02:19:11Z
-description = ""
-draft = false
-slug = "timespaninterval-natural-language-timespans"
-title = "TimeSpanInterval - Natural Language TimeSpans"
-
-+++
+---
+date: "2016-09-02T02:19:11Z"
+description: ""
+draft: false
+slug: timespaninterval-natural-language-timespans
+title: TimeSpanInterval - Natural Language TimeSpans
+---
 
 
 Have you ever wanted to give your users some predefined choices for a time span (minutes, hours, etc)? That’s a pretty natural thing to do using language, but not such a natural thing to do using the `TimeSpan` class in .Net. You could write your own methods to convert from those options into an actual `TimeSpan`, but you’d likely be using switch statements to tie together the idea of a unit of time to the `TimeSpan` class.

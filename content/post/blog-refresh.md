@@ -1,11 +1,10 @@
-+++
-date = 2013-04-07T22:32:02Z
-description = ""
-draft = false
-slug = "blog-refresh"
-title = "Blog Refresh"
-
-+++
+---
+date: "2013-04-07T22:32:02Z"
+description: ""
+draft: false
+slug: blog-refresh
+title: Blog Refresh
+---
 
 
 I know I haven’t updated CODEcisions much lately. I need to make note of some new topics to cover because I’m always learning new things, I just need to write them down. I’m going to try to do better at this going forward, starting with a series of posts of how I changed domain registrars, web hosts, and blog platforms.

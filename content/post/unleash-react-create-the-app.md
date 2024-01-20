@@ -1,11 +1,10 @@
-+++
-date = 2021-06-24T03:21:17Z
-description = ""
-draft = false
-slug = "unleash-react-create-the-app"
-title = "Unleash React - Create the App"
-
-+++
+---
+date: "2021-06-24T03:21:17Z"
+description: ""
+draft: false
+slug: unleash-react-create-the-app
+title: Unleash React - Create the App
+---
 
 
 This post is [part of a series](__GHOST_URL__/unleash-react/) on adding feature flagging to a React application using [Unleash](https://www.getunleash.io/).

@@ -1,11 +1,10 @@
-+++
-date = 2009-01-22T13:54:00Z
-description = ""
-draft = false
-slug = "yield-return-practical-use"
-title = "Yield Return Practical Use"
-
-+++
+---
+date: "2009-01-22T13:54:00Z"
+description: ""
+draft: false
+slug: yield-return-practical-use
+title: Yield Return Practical Use
+---
 
 
 In my previous post about the “yield return” syntax, I highlighted my displeasure with the fact that it doesn’t actually enumerate the yielded values until accessed. In my opinion, this is dangerous for developers who do not clearly understand it’s use. The issue is that at face value it appears to simply be a shortcut for returning a collection, avoiding the need to explicitly declare the collection object and add items.

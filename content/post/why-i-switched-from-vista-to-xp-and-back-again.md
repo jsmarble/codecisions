@@ -1,11 +1,10 @@
-+++
-date = 2008-07-03T16:07:00Z
-description = ""
-draft = false
-slug = "why-i-switched-from-vista-to-xp-and-back-again"
-title = "Why I Switched from Vista to XP (and Back Again)"
-
-+++
+---
+date: "2008-07-03T16:07:00Z"
+description: ""
+draft: false
+slug: why-i-switched-from-vista-to-xp-and-back-again
+title: Why I Switched from Vista to XP (and Back Again)
+---
 
 
 For the last few weeks, my work laptop (running Vista Business) had been functioning quite poorly. I was experiencing Windows Explorer crashes several times each day, shutting down was very slow, and in general things just were not stable. This is probably partially due to the fact that, [like David](http://www.mohundro.com/blog/2007/11/02/AmIACTPJunkieOrABetaJunkie.aspx), I am a beta junkie. So, I decided to do what any computer-savvy person would do in such a case – reformat and reinstall windows.

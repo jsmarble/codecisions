@@ -1,11 +1,10 @@
-+++
-date = 2013-04-18T15:42:41Z
-description = ""
-draft = false
-slug = "migrating-from-funnelweb-to-wordpress"
-title = "Migrating From FunnelWeb To Wordpress"
-
-+++
+---
+date: "2013-04-18T15:42:41Z"
+description: ""
+draft: false
+slug: migrating-from-funnelweb-to-wordpress
+title: Migrating From FunnelWeb To Wordpress
+---
 
 
 You probably already know that FunnelWeb has no ability to export your posts. However, I have devised a way to export your FunnelWeb data from the database into a WordPress export file format. This then allows you to import your posts directly into WordPress by tricking it into thinking your posts came from another WordPress blog.

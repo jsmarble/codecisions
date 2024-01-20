@@ -1,11 +1,10 @@
-+++
-date = 2010-06-18T12:00:00Z
-description = ""
-draft = false
-slug = "visual-studio-error-e-invalidarg"
-title = "Visual Studio Error E_INVALIDARG"
-
-+++
+---
+date: "2010-06-18T12:00:00Z"
+description: ""
+draft: false
+slug: visual-studio-error-e-invalidarg
+title: Visual Studio Error E_INVALIDARG
+---
 
 
 I was trying to run some unit tests using MSTest but it could not load the test assemblies, reporting error code E_INVALIDARG. Google pointed me to a bunch of people talking about an ASP.Net web exception and clearing ASP.Net temporary files. Needless to say, this did not fix my problem since I am simply trying to run tests.

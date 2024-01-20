@@ -1,11 +1,10 @@
-+++
-date = 2013-09-03T19:06:26Z
-description = ""
-draft = false
-slug = "doing-work-in-dependency-property-setters"
-title = "Doing Work In Dependency Property Setters"
-
-+++
+---
+date: "2013-09-03T19:06:26Z"
+description: ""
+draft: false
+slug: doing-work-in-dependency-property-setters
+title: Doing Work In Dependency Property Setters
+---
 
 
 I was working on a WPF app recently where I was binding a dependency property to the selection of a ComboBox. I needed to pass this value down to a domain object, so I decided I would modify the bound property setter to also set a property on my domain object. This seemed a fairly straightforward approach, commonly used in normal properties.

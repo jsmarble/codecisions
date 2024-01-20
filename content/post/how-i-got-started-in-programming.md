@@ -1,11 +1,10 @@
-+++
-date = 2008-07-18T13:43:00Z
-description = ""
-draft = false
-slug = "how-i-got-started-in-programming"
-title = "How I Got Started in Programming"
-
-+++
+---
+date: "2008-07-18T13:43:00Z"
+description: ""
+draft: false
+slug: how-i-got-started-in-programming
+title: How I Got Started in Programming
+---
 
 
 [Brian Sullivan](http://sullivansoftdev.com/blog) recently [tagged me](http://sullivansoftdev.com/blog/post/How-I-Got-Started-in-Programming.aspx) to write about my programming background, so here it is. It took me a while partly because I don't usually like talking about myself. Also, I've been quite busy lately both at work and playing with my website.

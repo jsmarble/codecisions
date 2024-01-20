@@ -1,11 +1,10 @@
-+++
-date = 2009-09-23T13:27:00Z
-description = ""
-draft = false
-slug = "extensions-for-ienumerable-of-custom-classes"
-title = "Extensions For IEnumerable<T> Of Custom Classes"
-
-+++
+---
+date: "2009-09-23T13:27:00Z"
+description: ""
+draft: false
+slug: extensions-for-ienumerable-of-custom-classes
+title: Extensions For IEnumerable<T> Of Custom Classes
+---
 
 
 Imagine a scenario in which you have a class called ‘Order’ and each order has a collection of ‘LineItem’. You have a collection of Order objects and want to get all of the LineItem objects for the Order collection. You could easily do this using lambda expressions and Linq. But if this functionality is commonly needed, you might find yourself repeating your lambda expressions in several places.

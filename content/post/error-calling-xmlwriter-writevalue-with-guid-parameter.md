@@ -1,11 +1,10 @@
-+++
-date = 2011-09-22T12:00:00Z
-description = ""
-draft = false
-slug = "error-calling-xmlwriter-writevalue-with-guid-parameter"
-title = "Error Calling XmlWriter WriteValue With Guid Parameter"
-
-+++
+---
+date: "2011-09-22T12:00:00Z"
+description: ""
+draft: false
+slug: error-calling-xmlwriter-writevalue-with-guid-parameter
+title: Error Calling XmlWriter WriteValue With Guid Parameter
+---
 
 
 Calling `XmlWriter.WriteValue()` passing a `Guid` as the parameter throws an `exception`.

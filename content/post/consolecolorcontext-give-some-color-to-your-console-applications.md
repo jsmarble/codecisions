@@ -1,11 +1,10 @@
-+++
-date = 2016-12-07T23:41:07Z
-description = ""
-draft = false
-slug = "consolecolorcontext-give-some-color-to-your-console-applications"
-title = "ConsoleColorContext - Give Some Color to Your Console Applications"
-
-+++
+---
+date: "2016-12-07T23:41:07Z"
+description: ""
+draft: false
+slug: consolecolorcontext-give-some-color-to-your-console-applications
+title: ConsoleColorContext - Give Some Color to Your Console Applications
+---
 
 
 I previously wrote about the [Context Pattern](__GHOST_URL__/the-context-pattern/) where I used an example of temporarily turning off an event. I was recently writing a console application and came up with another use of the Context Pattern that I thought I would share.

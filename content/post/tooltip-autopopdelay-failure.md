@@ -1,11 +1,10 @@
-+++
-date = 2009-04-15T13:56:00Z
-description = ""
-draft = false
-slug = "tooltip-autopopdelay-failure"
-title = "ToolTip AutoPopDelay Failure"
-
-+++
+---
+date: "2009-04-15T13:56:00Z"
+description: ""
+draft: false
+slug: tooltip-autopopdelay-failure
+title: ToolTip AutoPopDelay Failure
+---
 
 
 Most things in Microsoft’s .Net Framework are pretty intuitive and function as expected, but every so often you run across something that is just plain stupid. I’ve run across multiple problems with tooltips before, including a nasty one in the 1.1 framework in which the tooltip would not redisplay after it timed out and hid. But, alas, this is not what I’m talking about today. Today I want to talk about the frustrating nature of ToolTips and hiding their popup display after five seconds.

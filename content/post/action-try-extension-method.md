@@ -1,11 +1,10 @@
-+++
-date = 2009-08-27T14:53:27Z
-description = ""
-draft = false
-slug = "action-try-extension-method"
-title = "Action.Try() Extension Method"
-
-+++
+---
+date: "2009-08-27T14:53:27Z"
+description: ""
+draft: false
+slug: action-try-extension-method
+title: Action.Try() Extension Method
+---
 
 
 I read an article by John Teage on the Los Techies blog that gave me an idea. The article was about a method he used to wrap an action in a Try/Catch block for testing purposes. This seems like a handy method in some cases, but having a method means you have to be in that scope for the method to be accessible or it has to be a globally shared method. Enter extension methods.

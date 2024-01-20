@@ -1,11 +1,10 @@
-+++
-date = 2008-06-05T17:06:00Z
-description = ""
-draft = false
-slug = "datagridview-sorting-using-custom-bindinglist"
-title = "DataGridView Sorting Using Custom BindingList<T>"
-
-+++
+---
+date: "2008-06-05T17:06:00Z"
+description: ""
+draft: false
+slug: datagridview-sorting-using-custom-bindinglist
+title: DataGridView Sorting Using Custom BindingList<T>
+---
 
 
 A while back I needed to solve the problem of making all of the `DataGridView` controls in our application sortable, but without needing to implement a custom sort in every single form. The problem is that the `DataGridView`, for reasons unknown to me, does not include default sorting. The only way I could find to get automatic sorting was if the data source was a `DataSet` or if the columns and rows are added manually rather than using a data source. I toyed with the idea of manually adding columns and rows, but that did not last long as I realized that would be entirely too tedious and prone to break. I was also not able to use a `DataSet` as my data source.

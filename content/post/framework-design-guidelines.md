@@ -1,11 +1,10 @@
-+++
-date = 2008-12-23T14:07:00Z
-description = ""
-draft = false
-slug = "framework-design-guidelines"
-title = "Framework Design Guidelines"
-
-+++
+---
+date: "2008-12-23T14:07:00Z"
+description: ""
+draft: false
+slug: framework-design-guidelines
+title: Framework Design Guidelines
+---
 
 
 I’ve been thinking lately about general framework design. Over the next year, we’ll be redesigning the underlying framework of our product for just about every level. Given this undertaking and my strong desire to make sure it’s designed in the most flexible and extensible way, I’m looking for principles that we can apply to our code.

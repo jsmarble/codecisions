@@ -1,11 +1,10 @@
-+++
-date = 2008-10-27T19:19:40Z
-description = ""
-draft = false
-slug = "force-delete-files-or-folders-in-windows"
-title = "Force Delete Files or Folders In Windows"
-
-+++
+---
+date: "2008-10-27T19:19:40Z"
+description: ""
+draft: false
+slug: force-delete-files-or-folders-in-windows
+title: Force Delete Files or Folders In Windows
+---
 
 
 I was rearranging some music last week using a [tag scanning program](http://www.xdlab.ru/en/index.htm), but during the process I ended up with an empty folder with a funny name. I went to simply delete the folder, but Windows reported that it could not delete the folder because it was no longer available. First I tried using the command prompt to delete it, but that also failed. So, I naturally rebooted my machine to delete the folder on a fresh reboot. Still, no dice.

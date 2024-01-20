@@ -1,11 +1,10 @@
-+++
-date = 2011-01-31T14:00:00Z
-description = ""
-draft = false
-slug = "viewing-exceptions-in-the-immediate-window"
-title = "Viewing Exceptions In The Immediate Window"
-
-+++
+---
+date: "2011-01-31T14:00:00Z"
+description: ""
+draft: false
+slug: viewing-exceptions-in-the-immediate-window
+title: Viewing Exceptions In The Immediate Window
+---
 
 
 I showed a coworker the other day how you can view exception objects even when you don’t have an exception variable. For those that don’t know this, it is a useful debugging tip to remember.

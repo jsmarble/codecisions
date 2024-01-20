@@ -1,11 +1,10 @@
-+++
-date = 2019-09-30T18:35:43Z
-description = ""
-draft = false
-slug = "the-future-of-net-and-moving-legacy-applications-to-the-cloud"
-title = "The Future of .NET and Moving Legacy Applications to the Cloud"
-
-+++
+---
+date: "2019-09-30T18:35:43Z"
+description: ""
+draft: false
+slug: the-future-of-net-and-moving-legacy-applications-to-the-cloud
+title: The Future of .NET and Moving Legacy Applications to the Cloud
+---
 
 
 The release of .NET Core 3 raises the question of whether there are any impacts to the future direction of legacy .NET Framework applications that may be interested in moving to .NET Core in the future. The short answer is not really, but Core 3 is a stepping stone to getting the full .NET stack into a position where it could affect your ability to adopt the newer framework capabilities.

@@ -1,11 +1,10 @@
-+++
-date = 2015-10-26T13:53:06Z
-description = ""
-draft = false
-slug = "concurrent-operations-with-reactive-extensions"
-title = "Concurrent Operations with Reactive Extensions"
-
-+++
+---
+date: "2015-10-26T13:53:06Z"
+description: ""
+draft: false
+slug: concurrent-operations-with-reactive-extensions
+title: Concurrent Operations with Reactive Extensions
+---
 
 
 Today I encountered a scenario which I could describe with words much better than I could describe with code. I was reading results from a REST API, reading a few thousand records over multiple requests. I was saving these records to a database and didn’t want to wait until all records were pulled before saving, so I implemented some LINQ magic to enumerate the items in between each HTTP request.

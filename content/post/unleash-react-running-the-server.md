@@ -1,11 +1,10 @@
-+++
-date = 2021-06-23T22:50:55Z
-description = ""
-draft = false
-slug = "unleash-react-running-the-server"
-title = "Unleash React - Running the Server"
-
-+++
+---
+date: "2021-06-23T22:50:55Z"
+description: ""
+draft: false
+slug: unleash-react-running-the-server
+title: Unleash React - Running the Server
+---
 
 
 This post is [part of a series](__GHOST_URL__/unleash-react/) on adding feature flagging to a React application using [Unleash](https://www.getunleash.io/).

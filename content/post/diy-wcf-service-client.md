@@ -1,11 +1,10 @@
-+++
-date = 2008-10-22T20:18:00Z
-description = ""
-draft = false
-slug = "diy-wcf-service-client"
-title = "DIY WCF Service Client"
-
-+++
+---
+date: "2008-10-22T20:18:00Z"
+description: ""
+draft: false
+slug: diy-wcf-service-client
+title: DIY WCF Service Client
+---
 
 
 When writing WCF services, the “by the book” method of consuming a service is to add a Service Reference to your project and let Visual Studio codegen all the necessary classes including a service client. While this is convenient, it can pose some problems in more complex scenarios. As an example, I’ll walk you through an extremely simple situation using `WCF` Services to get GUIDs.

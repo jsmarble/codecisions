@@ -1,11 +1,10 @@
-+++
-date = 2009-08-04T19:42:00Z
-description = ""
-draft = false
-slug = "to-delete-or-not-to-delete"
-title = "To Delete Or Not To Delete"
-
-+++
+---
+date: "2009-08-04T19:42:00Z"
+description: ""
+draft: false
+slug: to-delete-or-not-to-delete
+title: To Delete Or Not To Delete
+---
 
 
 One of the decisions I regularly face when dealing with database data is whether to delete rows or mark them as deleted. On the one hand, the organized side of me really despises the idea of having old “deleted” records hanging around clogging up my queries. But, on the other hand, if you have the record there and for some reason determine that you need it back, it’s so nice to be able to just flip a flag and undo the delete.

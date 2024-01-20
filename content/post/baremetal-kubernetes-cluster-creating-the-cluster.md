@@ -1,11 +1,10 @@
-+++
-date = 2019-11-06T20:46:38Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-creating-the-cluster"
-title = "Baremetal Kubernetes Cluster - Creating the Cluster"
-
-+++
+---
+date: "2019-11-06T20:46:38Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-creating-the-cluster
+title: Baremetal Kubernetes Cluster - Creating the Cluster
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-installing-kubernetes/), we installed Kubernetes on the servers. In this post, we'll be creating the Kubernetes (k8s) cluster and configuring the master node.

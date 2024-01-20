@@ -1,11 +1,10 @@
-+++
-date = 2015-10-30T14:09:37Z
-description = ""
-draft = false
-slug = "fixed-visual-studio-fails-to-start"
-title = "Fixed: Visual Studio Fails to Start"
-
-+++
+---
+date: "2015-10-30T14:09:37Z"
+description: ""
+draft: false
+slug: fixed-visual-studio-fails-to-start
+title: 'Fixed: Visual Studio Fails to Start'
+---
 
 
 I have had a recurring problem on my PC for a while where after some period of time Visual Studio will fail to start and show a generic error message box. I have multiple versions of Visual Studio and all would fail to load, none telling me exactly what the problem was. I experienced a similar problem trying to start SQL Server Management Studio. Every time this happened, the only thing that could fix it was a reboot. I had tried a few times to search online for similar problems with Visual Studio, but could find nothing useful. Not knowing where to start in troubleshooting, I settled with rebooting occasionally.

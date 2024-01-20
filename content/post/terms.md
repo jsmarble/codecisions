@@ -1,11 +1,10 @@
-+++
-date = 2013-04-05T17:17:00Z
-description = ""
-draft = false
-slug = "terms"
-title = "Terms of Use"
-
-+++
+---
+date: "2013-04-05T17:17:00Z"
+description: ""
+draft: false
+slug: terms
+title: Terms of Use
+---
 
 
 All content provided on this site is for informational purposes only. The owner of this site makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site.

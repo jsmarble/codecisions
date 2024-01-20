@@ -1,11 +1,10 @@
-+++
-date = 2022-04-09T20:20:06Z
-description = ""
-draft = false
-slug = "growing-a-vmware-esxi-disk"
-title = "Growing a VMWare ESXi Disk"
-
-+++
+---
+date: "2022-04-09T20:20:06Z"
+description: ""
+draft: false
+slug: growing-a-vmware-esxi-disk
+title: Growing a VMWare ESXi Disk
+---
 
 
 When working with virtual machines, it is a balance between over-provisioning and under-provisioning resources for each VM. Sometimes, a smaller disk that was fine for months or years is now not sufficient. How can you make the disk bigger without having to start all over?

@@ -1,11 +1,10 @@
-+++
-date = 2008-10-02T20:34:00Z
-description = ""
-draft = false
-slug = "extension-methods-in-net-20"
-title = "Extension Methods in .Net 2.0"
-
-+++
+---
+date: "2008-10-02T20:34:00Z"
+description: ""
+draft: false
+slug: extension-methods-in-net-20
+title: Extension Methods in .Net 2.0
+---
 
 
 I know I’m late with the news here, but I sure never heard of this until now. Did you know you can do [extension methods](http://msdn.microsoft.com/en-us/library/bb383977.aspx) in .Net 2.0 with a minor hack? I think Visual Studio 2008 might be required. All you have to do, as I learned from [jaredpar’s blog](http://blogs.msdn.com/jaredpar/archive/2007/11/16/extension-methods-without-3-5-framework.aspx), is create your own class called “ExtensionAttribute” in the correct namespace. After that, you have extension methods. That is crazy! I’ve been wanting them for a while, so I’m glad I searched around for this!

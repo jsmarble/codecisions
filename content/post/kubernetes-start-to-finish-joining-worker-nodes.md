@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T00:43:00Z
-description = ""
-draft = false
-slug = "kubernetes-start-to-finish-joining-worker-nodes"
-title = "Baremetal Kubernetes Cluster - Joining Worker Nodes"
-
-+++
+---
+date: "2019-11-07T00:43:00Z"
+description: ""
+draft: false
+slug: kubernetes-start-to-finish-joining-worker-nodes
+title: Baremetal Kubernetes Cluster - Joining Worker Nodes
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-creating-the-cluster/), we created the Kubernetes cluster and master node. In this post, we'll be joining the worker nodes to the Kubernetes (k8s) cluster.

@@ -1,11 +1,10 @@
-+++
-date = 2019-11-07T02:40:00Z
-description = ""
-draft = false
-slug = "baremetal-kubernetes-cluster-helm"
-title = "Baremetal Kubernetes Cluster - Helm"
-
-+++
+---
+date: "2019-11-07T02:40:00Z"
+description: ""
+draft: false
+slug: baremetal-kubernetes-cluster-helm
+title: Baremetal Kubernetes Cluster - Helm
+---
 
 
 This is [part of a series](__GHOST_URL__/baremetal-kubernetes-cluster-start-to-finish/) on creating a Kubernetes cluster. In the [previous post](__GHOST_URL__/kubernetes-start-to-finish-joining-worker-nodes/), we finalized the cluster by joining the worker nodes. In this post, we'll add one additional tool to our master node to help with Kubernetes (k8s) deployments.

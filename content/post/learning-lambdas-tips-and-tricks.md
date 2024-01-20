@@ -1,11 +1,10 @@
-+++
-date = 2009-02-12T19:58:00Z
-description = ""
-draft = false
-slug = "learning-lambdas-tips-and-tricks"
-title = "Learning Lambdas - Tips and Tricks"
-
-+++
+---
+date: "2009-02-12T19:58:00Z"
+description: ""
+draft: false
+slug: learning-lambdas-tips-and-tricks
+title: Learning Lambdas - Tips and Tricks
+---
 
 
 Anyone who spends much time looking at lambda expressions quickly realizes that they rock and are very clean and useful. I find myself using simple ones every day, but I thought I’d lay out some quick tips for anyone that shares my fondness of lambdas. If you’ve never learned about lambdas, hopefully this will help you get started.

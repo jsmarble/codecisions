@@ -1,11 +1,10 @@
-+++
-date = 2008-11-11T14:10:00Z
-description = ""
-draft = false
-slug = "comparison-and-casting-operators"
-title = "Comparison and Casting Operators"
-
-+++
+---
+date: "2008-11-11T14:10:00Z"
+description: ""
+draft: false
+slug: comparison-and-casting-operators
+title: Comparison and Casting Operators
+---
 
 
 Today, I’m writing about [operators](http://msdn.microsoft.com/en-us/library/8edha89s(VS.80).aspx) in .Net because I think they are a very powerful but underutilized feature of the framework. I’ve worked with comparison operators ( == !=) in the past, but never really implemented them in a production project. However, the are also casting operators, which allow you to provide implicit or explicit conversion functionality between custom types.
