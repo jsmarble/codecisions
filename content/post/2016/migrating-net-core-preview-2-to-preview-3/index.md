@@ -11,7 +11,5 @@ If you have any `.Net Core Preview 2` applications that use `project.json`, you 
 
 Fortunately, the new `dotnet` command line utility supports migrating from `project.json` to the new `.csproj` format. However, that is not very apparent from viewing the command line help output, which normally tells you the commands available to run.
 
-![dotnet help](https://static.codecisions.com/dotnet.png)
-
 But rest assured, the command does exist, and Microsoft even [documented it](https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-migrate). I tested it out a simple console application that I had generated with Preview 2, and it worked just as expected. It also backs up your old `project.json` file in case you need it.
 

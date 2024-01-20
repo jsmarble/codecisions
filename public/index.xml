@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CODEcisions</title>
+    <link>https://codecisions.com/</link>
+    <description>Recent content on CODEcisions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Sep 2023 03:23:52 +0000</lastBuildDate>
+    <atom:link href="https://codecisions.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding SPICE to Your Proxmox Virtual Machine</title>
+      <link>https://codecisions.com/post/2023/adding-spice-to-your-proxmox-virtual-machine/</link>
+      <pubDate>Wed, 27 Sep 2023 03:23:52 +0000</pubDate>
+      <guid>https://codecisions.com/post/2023/adding-spice-to-your-proxmox-virtual-machine/</guid>
+      <description>We may finally have a worthwhile alternative to Windows RDP on Linux. Enter SPICE!</description>
+    </item>
+    <item>
+      <title>Connecting a Serial Terminal to a Proxmox Virtual Machine</title>
+      <link>https://codecisions.com/post/2023/connecting-a-serial-terminal-to-a-proxmox-virtual-machine/</link>
+      <pubDate>Sun, 20 Aug 2023 02:32:55 +0000</pubDate>
+      <guid>https://codecisions.com/post/2023/connecting-a-serial-terminal-to-a-proxmox-virtual-machine/</guid>
+      <description>When connecting to Virtual Machines or Linux servers in general, ssh is the obvious standard in remote terminals. However, if you need to monitor boot output, connect to a machine without a working network connection, or keep a virtual machine air-gapped then a serial terminal may be just the answer you are looking for.&#xA;In this article, we will explore how to setup serial terminal access to a virtual machine running on a Proxmox VE host and connect to it without the need for an ssh connection or with the limitations of the the Proxmox VNC interface.</description>
+    </item>
+    <item>
+      <title>Growing a VMWare ESXi Disk</title>
+      <link>https://codecisions.com/post/2022/growing-a-vmware-esxi-disk/</link>
+      <pubDate>Sat, 09 Apr 2022 20:20:06 +0000</pubDate>
+      <guid>https://codecisions.com/post/2022/growing-a-vmware-esxi-disk/</guid>
+      <description>When working with virtual machines, it is a balance between over-provisioning and under-provisioning resources for each VM. Sometimes, a smaller disk that was fine for months or years is now not sufficient. How can you make the disk bigger without having to start all over?&#xA;In this post, I will show you exactly how to expand a disk on the free version of VMWare ESXi 6.7 for a VM running Debian with ext4.</description>
+    </item>
+    <item>
+      <title>Unleash React - Create the App</title>
+      <link>https://codecisions.com/post/2021/unleash-react-create-the-app/</link>
+      <pubDate>Thu, 24 Jun 2021 03:21:17 +0000</pubDate>
+      <guid>https://codecisions.com/post/2021/unleash-react-create-the-app/</guid>
+      <description>This post is part of a series on adding feature flagging to a React application using Unleash.&#xA;Unleash React - What is Feature Flagging? Feature flags are a powerful tool in the developer’s toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This m… Joshua Marble CODEcisions In this post, we&amp;rsquo;re going to create the React application and hide a feature behind a feature flag.</description>
+    </item>
+    <item>
+      <title>Unleash React - Configuring Unleash Proxy</title>
+      <link>https://codecisions.com/post/2021/unleash-react-configuring-unleash-proxy/</link>
+      <pubDate>Thu, 24 Jun 2021 02:03:12 +0000</pubDate>
+      <guid>https://codecisions.com/post/2021/unleash-react-configuring-unleash-proxy/</guid>
+      <description>This post is part of a series [GHOST_URL/unleash-react/] on adding feature flagging to a React application using Unleash [https://www.getunleash.io/].&#xA;Unleash React - What is Feature Flagging?Feature flags are a powerful tool in the developer’s toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This m…CODEcisionsJoshua Marble [https://codecisions.</description>
+    </item>
+    <item>
+      <title>Unleash React - Running the Server</title>
+      <link>https://codecisions.com/post/2021/unleash-react-running-the-server/</link>
+      <pubDate>Wed, 23 Jun 2021 22:50:55 +0000</pubDate>
+      <guid>https://codecisions.com/post/2021/unleash-react-running-the-server/</guid>
+      <description>This post is part of a series on adding feature flagging to a React application using Unleash.&#xA;Unleash React - What is Feature Flagging? Feature flags are a powerful tool in the developer’s toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This m… Joshua Marble CODEcisions In this post, we&amp;rsquo;ll learn how to get Unleash server running in docker.</description>
+    </item>
+    <item>
+      <title>Unleash React - What is Feature Flagging?</title>
+      <link>https://codecisions.com/post/2021/unleash-react/</link>
+      <pubDate>Wed, 23 Jun 2021 22:49:28 +0000</pubDate>
+      <guid>https://codecisions.com/post/2021/unleash-react/</guid>
+      <description>Feature flags are a powerful tool in the developer&amp;rsquo;s toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This makes the deployed code less volatile and provides an easy way to rollout and rollback code changes with less impact and risk.&#xA;In this series, I am going to introduce you to feature flags and show you from start to finish how to get started with feature flagging in a React application.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Final Thoughts</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-final-thoughts/</link>
+      <pubDate>Thu, 07 Nov 2019 11:45:10 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-final-thoughts/</guid>
+      <description>This is the conclusion of a series on creating a Kubernetes cluster. In the previous post, we deployed an application to the Kubernetes (k8s) cluster and saw everything working end-to-end.&#xA;I hope you enjoyed your journey with me and learned a lot along the way. It&amp;rsquo;s been fun and challenging to create this series, and I have to say I am happy to have my cluster back up and running. I hope you find many things to host on your shiny new k8s cluster.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Deploying An Application</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-deploying-an-application/</link>
+      <pubDate>Thu, 07 Nov 2019 11:18:17 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-deploying-an-application/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we dove deeper into Kubernetes networking and created an Ingress Controller to make our Services accessible. In this post, we&amp;rsquo;ll be deploying an application to the Kubernetes (k8s) cluster.&#xA;If you are setting up your own baremetal k8s cluster, I assume there&amp;rsquo;s a good chance that you also already run a Plex Media Server. Therefore, I thought it would fun to deploy Tautulli, a monitoring application for Plex, as the first application in the cluster.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Ingress Controller</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-ingress-controller/</link>
+      <pubDate>Thu, 07 Nov 2019 11:05:07 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-ingress-controller/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we learned some Kubernetes networking concepts and added a Load Balancer to the cluster. In this post, we&amp;rsquo;ll dive deeper into networking by creating an Ingress Controller.&#xA;Before we start creating things, let&amp;rsquo;s take a moment to think about our networking situation and limitations in a homelab.&#xA;Since our cluster will be running in a homelab, we likely only have a single public IP address available.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Networking and Load Balancer</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-networking-and-load-balancer/</link>
+      <pubDate>Thu, 07 Nov 2019 10:54:26 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-networking-and-load-balancer/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we provisioned the persistent storage for our applications. In this post, we&amp;rsquo;ll start to build out the networking stack for our cluster.&#xA;Before we get deep into the various networking objects necessary for a fully-functioning cluster, I want to give a high-level overview of networking in k8s. I recommend that you first get familiar with all the pieces involved, then do some more in-depth reading on each aspect to better understand what&amp;rsquo;s happening behind the scenes.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Persistent Volumes</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-persistant-volumes/</link>
+      <pubDate>Thu, 07 Nov 2019 10:13:13 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-persistant-volumes/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we installed Helm to make deployments easier. In this post, we&amp;rsquo;ll start configuring our new Kubernetes (k8s) cluster by setting up persistent storage.&#xA;In any containerized system, there is likely the need for data to persistent after the container is gone. Commonly, that data is some configuration for the application inside the container, but it may also be files that are used by the container.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Helm</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-helm/</link>
+      <pubDate>Thu, 07 Nov 2019 02:40:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-helm/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we finalized the cluster by joining the worker nodes. In this post, we&amp;rsquo;ll add one additional tool to our master node to help with Kubernetes (k8s) deployments.&#xA;Helm is a package manager for k8s, which makes it easy to deploy applications using a package, called a [chart](https://helm.sh/docs/developing_charts/), that someone else has built. To install Helm, use the command below.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Joining Worker Nodes</title>
+      <link>https://codecisions.com/post/2019/kubernetes-start-to-finish-joining-worker-nodes/</link>
+      <pubDate>Thu, 07 Nov 2019 00:43:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/kubernetes-start-to-finish-joining-worker-nodes/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we created the Kubernetes cluster and master node. In this post, we&amp;rsquo;ll be joining the worker nodes to the Kubernetes (k8s) cluster.&#xA;Worker nodes are intended to be configured by the master node, therefore there isn&amp;rsquo;t any configuration necessary on the node itself. As long as the same version of Kubernetes and Docker are installed on the server, it should work in the cluster.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Creating the Cluster</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-creating-the-cluster/</link>
+      <pubDate>Wed, 06 Nov 2019 20:46:38 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-creating-the-cluster/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we installed Kubernetes on the servers. In this post, we&amp;rsquo;ll be creating the Kubernetes (k8s) cluster and configuring the master node.&#xA;To get started, we first need to create the cluster. There are two parts to creating the cluster.&#xA;Initialize the cluster Create the pod network Login to the master node and execute the following command to create the cluster using this server as the master node and an internal pod network of 10.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Installing Kubernetes</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-installing-kubernetes/</link>
+      <pubDate>Wed, 06 Nov 2019 07:54:42 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-installing-kubernetes/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In the previous post, we installed Debian 10 onto four virtual machines that will be used in the cluster. In this post, we will be installing Kubernetes (k8s) on them.&#xA;Now that the machines are ready, it&amp;rsquo;s time to install k8s and docker. This will be the same process for the master node and worker nodes. The official steps mainly involve setting up the necessary package sources then installing the packages and dependencies.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Creating the Virtual Machines</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-creating-the-virtual-machines/</link>
+      <pubDate>Wed, 06 Nov 2019 02:13:41 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-creating-the-virtual-machines/</guid>
+      <description>This is part of a series on creating a Kubernetes cluster. In this post, we&amp;rsquo;ll be creating the virtual machines and preparing them to install Kubernetes (k8s).&#xA;For my cluster, we&amp;rsquo;ll be using four Debian 10 &amp;ldquo;buster&amp;rdquo; servers. These will be hosted on a VMWare ESXi physical server. One server will be the k8s master node, and the other three will be worker nodes. I had success with Fedora 29 in my previous cluster, and I&amp;rsquo;ll try to highlight any different steps along the way in case you prefer Fedora.</description>
+    </item>
+    <item>
+      <title>Baremetal Kubernetes Cluster - Start to Finish</title>
+      <link>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-start-to-finish/</link>
+      <pubDate>Wed, 06 Nov 2019 02:12:35 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/baremetal-kubernetes-cluster-start-to-finish/</guid>
+      <description>When I first setup my Kubernetes (k8s) cluster in my homelab, it was a big undertaking and an arduous learning experience. It&amp;rsquo;s been running solidly for months, but I recently tried upgrading a bit too bleeding edge, and it stopped working. After some unsuccessful attempts at recovery, I decided to rebuild the entire cluster.&#xA;Since I will be setting up a new cluster, I thought I would write this blog series to document each step so that anyone interested in learning k8s will be able to get a working environment.</description>
+    </item>
+    <item>
+      <title>The Future of .NET and Moving Legacy Applications to the Cloud</title>
+      <link>https://codecisions.com/post/2019/the-future-of-net-and-moving-legacy-applications-to-the-cloud/</link>
+      <pubDate>Mon, 30 Sep 2019 18:35:43 +0000</pubDate>
+      <guid>https://codecisions.com/post/2019/the-future-of-net-and-moving-legacy-applications-to-the-cloud/</guid>
+      <description>The release of .NET Core 3 raises the question of whether there are any impacts to the future direction of legacy .NET Framework applications that may be interested in moving to .NET Core in the future. The short answer is not really, but Core 3 is a stepping stone to getting the full .NET stack into a position where it could affect your ability to adopt the newer framework capabilities.</description>
+    </item>
+    <item>
+      <title>How to Build Custom JSON Using JSON.Net</title>
+      <link>https://codecisions.com/post/2017/how-to-build-custom-json-using-json-net/</link>
+      <pubDate>Thu, 03 Aug 2017 00:12:03 +0000</pubDate>
+      <guid>https://codecisions.com/post/2017/how-to-build-custom-json-using-json-net/</guid>
+      <description>The serializer from JSON.Net is really good, and the default output from JsonConvert.SerializeObject will work for most situations, but sometimes you want fine control over the structure of your JSON. Fortunately, JSON.Net also includes an API for building out custom JSON. You will need the Nuget package Newtonsoft.Json and add the namespace Newtonsoft.Json.Linq.&#xA;To start, create a new JObject that will represent the root of the JSON. Call the Add method to add properties to the JSON.</description>
+    </item>
+    <item>
+      <title>Convert a DataTable to a Markdown table</title>
+      <link>https://codecisions.com/post/2017/convert-a-datatable-to-a-markdown-table/</link>
+      <pubDate>Mon, 16 Jan 2017 04:43:22 +0000</pubDate>
+      <guid>https://codecisions.com/post/2017/convert-a-datatable-to-a-markdown-table/</guid>
+      <description>I am working on a project in which I want to export some tabular data in Markdown. I started writing methods to do this with each set of data, but that got to be tedious.&#xA;I thought instead it would be easier to get the data into a DataTable then just have a generic method that converts a DataTable to Markdown. That idea became a new extension method that I thought I would share on gist.</description>
+    </item>
+    <item>
+      <title>Migrating .Net Core Preview 2 to Preview 3</title>
+      <link>https://codecisions.com/post/2016/migrating-net-core-preview-2-to-preview-3/</link>
+      <pubDate>Thu, 08 Dec 2016 01:00:07 +0000</pubDate>
+      <guid>https://codecisions.com/post/2016/migrating-net-core-preview-2-to-preview-3/</guid>
+      <description>If you have any .Net Core Preview 2 applications that use project.json, you will encounter errors if you try to update to .Net Core Preview 3. This is due to the fact that .Net Core is moving away from project.json and will use the normal .csproj files going forward. For more information on that change, see this blog post by the .Net Core engineering team.&#xA;Fortunately, the new dotnet command line utility supports migrating from project.</description>
+    </item>
+    <item>
+      <title>ConsoleColorContext - Give Some Color to Your Console Applications</title>
+      <link>https://codecisions.com/post/2016/consolecolorcontext-give-some-color-to-your-console-applications/</link>
+      <pubDate>Wed, 07 Dec 2016 23:41:07 +0000</pubDate>
+      <guid>https://codecisions.com/post/2016/consolecolorcontext-give-some-color-to-your-console-applications/</guid>
+      <description>I previously wrote about the Context Pattern where I used an example of temporarily turning off an event. I was recently writing a console application and came up with another use of the Context Pattern that I thought I would share.&#xA;Often in a console application, the need arises to output some text in a different color, perhaps for displaying errors and warnings, or maybe just to give the user some extra visual feedback.</description>
+    </item>
+    <item>
+      <title>NuGet Package: Costura.Fody</title>
+      <link>https://codecisions.com/post/2016/nuget-package-costura-fody/</link>
+      <pubDate>Wed, 19 Oct 2016 23:53:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2016/nuget-package-costura-fody/</guid>
+      <description>I was writing a small tool recently and wanted to give it to some people in the office to use, but I wanted it to be simple. I was going to put it out on a network share, but I didn&amp;rsquo;t like how I needed a folder with all the dependencies, which inevitably raises questions of which file to run. I thought it would be nice to just bundle it all up into a single executable.</description>
+    </item>
+    <item>
+      <title>TimeSpanInterval - Natural Language TimeSpans</title>
+      <link>https://codecisions.com/post/2016/timespaninterval-natural-language-timespans/</link>
+      <pubDate>Fri, 02 Sep 2016 02:19:11 +0000</pubDate>
+      <guid>https://codecisions.com/post/2016/timespaninterval-natural-language-timespans/</guid>
+      <description>Have you ever wanted to give your users some predefined choices for a time span (minutes, hours, etc)? That’s a pretty natural thing to do using language, but not such a natural thing to do using the TimeSpan class in .Net. You could write your own methods to convert from those options into an actual TimeSpan, but you’d likely be using switch statements to tie together the idea of a unit of time to the TimeSpan class.</description>
+    </item>
+    <item>
+      <title>NuGet Package: FluentValidation</title>
+      <link>https://codecisions.com/post/2016/nuget-package-fluentvalidation/</link>
+      <pubDate>Mon, 09 May 2016 14:31:39 +0000</pubDate>
+      <guid>https://codecisions.com/post/2016/nuget-package-fluentvalidation/</guid>
+      <description>I came across a pretty neat nuget package that may very well be my go-to validation logic from now on. The package is called FluentValidation and seems to be a very flexible and usable fluent approach to object validation. There’s not much else to say about it other than go check it out and give it a spin. There is a quick example on the github page, but the api is very discoverable.</description>
+    </item>
+    <item>
+      <title>DataReader Extension GetNullable</title>
+      <link>https://codecisions.com/post/2016/datareader-extension-getnullable/</link>
+      <pubDate>Thu, 10 Mar 2016 21:41:27 +0000</pubDate>
+      <guid>https://codecisions.com/post/2016/datareader-extension-getnullable/</guid>
+      <description>It has always been a minor pain that fields in a database can be null while the same value type in .Net cannot be. If you wanted to read a nullable DateTime field in the database into your object’s DateTime property, the only choice was to check it for null first then read the field if not null.&#xA;if (!dr.IsDBNull(3)) obj.Date = dr.GetDateTime(3); I like to use extension methods to prevent the need to lookup ordinals every time I read from the data reader.</description>
+    </item>
+    <item>
+      <title>Fixed: Visual Studio Fails to Start</title>
+      <link>https://codecisions.com/post/2015/fixed-visual-studio-fails-to-start/</link>
+      <pubDate>Fri, 30 Oct 2015 14:09:37 +0000</pubDate>
+      <guid>https://codecisions.com/post/2015/fixed-visual-studio-fails-to-start/</guid>
+      <description>I have had a recurring problem on my PC for a while where after some period of time Visual Studio will fail to start and show a generic error message box. I have multiple versions of Visual Studio and all would fail to load, none telling me exactly what the problem was. I experienced a similar problem trying to start SQL Server Management Studio. Every time this happened, the only thing that could fix it was a reboot.</description>
+    </item>
+    <item>
+      <title>Concurrent Operations with Reactive Extensions</title>
+      <link>https://codecisions.com/post/2015/concurrent-operations-with-reactive-extensions/</link>
+      <pubDate>Mon, 26 Oct 2015 13:53:06 +0000</pubDate>
+      <guid>https://codecisions.com/post/2015/concurrent-operations-with-reactive-extensions/</guid>
+      <description>Today I encountered a scenario which I could describe with words much better than I could describe with code. I was reading results from a REST API, reading a few thousand records over multiple requests. I was saving these records to a database and didn’t want to wait until all records were pulled before saving, so I implemented some LINQ magic to enumerate the items in between each HTTP request.</description>
+    </item>
+    <item>
+      <title>Disposing of Interfaces</title>
+      <link>https://codecisions.com/post/2015/disposing-of-interfaces/</link>
+      <pubDate>Thu, 09 Jul 2015 19:31:41 +0000</pubDate>
+      <guid>https://codecisions.com/post/2015/disposing-of-interfaces/</guid>
+      <description>Sometimes you run across situations where there is just no good solution. No matter which option you choose, there are downsides. I found one such situation today when trying to design an interface. The code below are simple examples I wrote for the purposes of this post.&#xA;public interface INotifier { void Notify(string message); } I had written my initial implementation, which happened to use a resource that needed disposing.</description>
+    </item>
+    <item>
+      <title>WaitTimeout - A Solution For Waiting</title>
+      <link>https://codecisions.com/post/2015/waittimeout-a-solution-for-waiting/</link>
+      <pubDate>Fri, 16 Jan 2015 20:29:25 +0000</pubDate>
+      <guid>https://codecisions.com/post/2015/waittimeout-a-solution-for-waiting/</guid>
+      <description>I recently found myself needing to periodically check the status of another operation, waiting for it to finish. In pseudocode, the basic operation is similar to this:&#xA;while (!complete) { //check the status if ([completed]) complete = true; else //sleep 500ms } I did not want to wait forever, though, so I wanted to implement a timeout. I could have used a timestamp, then checked the elapsed time with each iteration, but I wondered if there was a more reusable approach.</description>
+    </item>
+    <item>
+      <title>Finding Versions of mscordacwks.dll</title>
+      <link>https://codecisions.com/post/2014/finding-versions-of-mscordacwks-dll/</link>
+      <pubDate>Mon, 24 Nov 2014 16:48:41 +0000</pubDate>
+      <guid>https://codecisions.com/post/2014/finding-versions-of-mscordacwks-dll/</guid>
+      <description>In my post on Debugging Different SOS Versions With WinDBG, I wrote how you often will need a different version of mscordacwks.dll, but I skipped over the part about how to obtain the version you need.&#xA;Of course the natural answer is to get it off the machine from which the dump file was obtained. Unfortunately, that is often easier said than done. I have previously looked online to try to find copies with little luck, but today I ran across a site that attempts to index every version of the file.</description>
+    </item>
+    <item>
+      <title>IVPN Review</title>
+      <link>https://codecisions.com/post/2014/ivpn-review/</link>
+      <pubDate>Mon, 07 Apr 2014 14:26:29 +0000</pubDate>
+      <guid>https://codecisions.com/post/2014/ivpn-review/</guid>
+      <description>I decided I wanted to get a VPN service that I could use to protect my privacy and security on the internet. This isn’t so much an issue at home as it is on public wi-fi, but I figured it wouldn’t hurt to protect my privacy at home, too. These initial uses led me to a few requirements.&#xA;It had to be fast with unlimited bandwidth. It had to protect privacy.</description>
+    </item>
+    <item>
+      <title>Debugging Different SOS Versions With WinDBG</title>
+      <link>https://codecisions.com/post/2014/debugging-different-sos-versions-with-windbg/</link>
+      <pubDate>Mon, 20 Jan 2014 19:23:46 +0000</pubDate>
+      <guid>https://codecisions.com/post/2014/debugging-different-sos-versions-with-windbg/</guid>
+      <description>Debugging memory dump files from .Net processes with WinDbg is always an adventure. I have below a solution to the common problem of CLR version mismatching. But first, I will give a quick introduction to WinDbg and memory dumps for those new to the topic.&#xA;Memory dumps are files with the contents of the memory of a process. They contain variable data, method calls, exceptions, and anything else. An easy way to create a memory dump is to use Task Manager.</description>
+    </item>
+    <item>
+      <title>The Context Pattern</title>
+      <link>https://codecisions.com/post/2014/the-context-pattern/</link>
+      <pubDate>Tue, 14 Jan 2014 14:35:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2014/the-context-pattern/</guid>
+      <description>I have found myself enjoying a certain coding pattern lately, so I thought it would be a good opportunity for a new post.&#xA;There are situations where you want to do something within a certain state, and ensure the state gets reverted at the completion of the operation. For example, while setting some properties, you want the INotifyPropertyChanged event to be temporarily suppressed, but ensure that it is functioning normally once these properties have been set.</description>
+    </item>
+    <item>
+      <title>Doing Work In Dependency Property Setters</title>
+      <link>https://codecisions.com/post/2013/doing-work-in-dependency-property-setters/</link>
+      <pubDate>Tue, 03 Sep 2013 19:06:26 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/doing-work-in-dependency-property-setters/</guid>
+      <description>I was working on a WPF app recently where I was binding a dependency property to the selection of a ComboBox. I needed to pass this value down to a domain object, so I decided I would modify the bound property setter to also set a property on my domain object. This seemed a fairly straightforward approach, commonly used in normal properties.&#xA;To my surprise, my property setter never got called and my domain object never had the value set.</description>
+    </item>
+    <item>
+      <title>Controlling Browser Interpretation of Character Encoding</title>
+      <link>https://codecisions.com/post/2013/controlling-browser-interpretation-of-character-encoding/</link>
+      <pubDate>Fri, 21 Jun 2013 14:45:41 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/controlling-browser-interpretation-of-character-encoding/</guid>
+      <description>This article is about character encoding, but I thought it would be beneficial to give some background on what I’m doing.&#xA;I’ve been working on a project that generates a report, and I needed to be able to output my report in any format, including XML and HTML. Through an effort to achieve a good modular design, I wrote several report formatters that all just return a byte array to be persisted (to file primarily, but streams or a db are possibilities).</description>
+    </item>
+    <item>
+      <title>Migrating From FunnelWeb To Wordpress</title>
+      <link>https://codecisions.com/post/2013/migrating-from-funnelweb-to-wordpress/</link>
+      <pubDate>Thu, 18 Apr 2013 15:42:41 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/migrating-from-funnelweb-to-wordpress/</guid>
+      <description>You probably already know that FunnelWeb has no ability to export your posts. However, I have devised a way to export your FunnelWeb data from the database into a WordPress export file format. This then allows you to import your posts directly into WordPress by tricking it into thinking your posts came from another WordPress blog.&#xA;The intention of this tutorial is not to get your site perfectly setup and ready for visitors.</description>
+    </item>
+    <item>
+      <title>Google Has Terrible Customer Service</title>
+      <link>https://codecisions.com/post/2013/google-has-terrible-customer-service/</link>
+      <pubDate>Wed, 17 Apr 2013 01:28:29 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/google-has-terrible-customer-service/</guid>
+      <description>Google has terrible customer service. Big surprise, right? Yes, I know I’m getting many things for free. I don’t dispute that. My problem is when they are happy to charge me money but not provide any support related to those charges.&#xA;I have a few of the old Free Google Apps accounts from years ago. With my recent changes in registrars, I went ahead and transferred all my domains over to Gandi (which has excellent support).</description>
+    </item>
+    <item>
+      <title>FunnelWeb Review</title>
+      <link>https://codecisions.com/post/2013/funnelweb-review/</link>
+      <pubDate>Fri, 12 Apr 2013 15:42:29 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/funnelweb-review/</guid>
+      <description>In my Blog Refresh post I talked about moving back to BlogEngine.Net on Arvixe. I used BlogEngine.net for a while but wanted to update to a new version. I had experienced some issues previously with BlogEngine.net upgrades, but always managed to get through it. This time, however, I could not get around my problem (sadly I don’t recall what the problem was since it was years ago).&#xA;It’s in my nature to tinker with things, and knowing I was stuck with my existing older version wasn’t appealing.</description>
+    </item>
+    <item>
+      <title>WPF Binding Boolean to an Enum Value</title>
+      <link>https://codecisions.com/post/2013/wpf-binding-boolean-to-an-enum-value/</link>
+      <pubDate>Tue, 09 Apr 2013 14:57:34 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/wpf-binding-boolean-to-an-enum-value/</guid>
+      <description>Imagine the situation where you have three radio buttons in a Window. You want the selection of those radio buttons to be bound to a single enum value where the enum contains values for each of the radio button options.&#xA;Radio Button: None Radio Button: Blacklist Radio Button: Whitelist public enum FilterType { None, Whitelist, Blacklist } When the bound value changes, the radio button selections should match it. When a radio button selection is changed, the bound value should match the selection.</description>
+    </item>
+    <item>
+      <title>Arvixe Review</title>
+      <link>https://codecisions.com/post/2013/arvixe-review/</link>
+      <pubDate>Mon, 08 Apr 2013 19:48:40 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/arvixe-review/</guid>
+      <description>In my previous post I mentioned that Arvixe was a good and cheap web host. They provide a good set of features for a low price for Windows hosting. I used Arvixe for almost two years to host the BlogEngine.net and FunnelWeb platforms for this site. This review is from the perspective of a low traffic website for low cost.&#xA;Pros Windows hosting on the cheap Free SQL Server databases Good support response times Free domain name registration for a single domain $10 domain registration with free privacy guard Starts at $5/mo Cons Barely adequate control panel software Limited registrar access to your domains Terms of service for your free domain Update: They have access to your password (no hashing, see update section below) The main benefit that Arvixe provides is good features for cheap.</description>
+    </item>
+    <item>
+      <title>Blog Refresh</title>
+      <link>https://codecisions.com/post/2013/blog-refresh/</link>
+      <pubDate>Sun, 07 Apr 2013 22:32:02 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/blog-refresh/</guid>
+      <description>I know I haven’t updated CODEcisions much lately. I need to make note of some new topics to cover because I’m always learning new things, I just need to write them down. I’m going to try to do better at this going forward, starting with a series of posts of how I changed domain registrars, web hosts, and blog platforms.&#xA;First let me give you some background. I started out my blog as a personal blog on WordPress.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://codecisions.com/post/2013/contact/</link>
+      <pubDate>Fri, 05 Apr 2013 17:19:29 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terms of Use</title>
+      <link>https://codecisions.com/post/2013/terms/</link>
+      <pubDate>Fri, 05 Apr 2013 17:17:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/terms/</guid>
+      <description>All content provided on this site is for informational purposes only. The owner of this site makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site.&#xA;The owner of codecisions.com will not be liable for any errors or omissions in this information nor for the availability of this information. The owner will not be liable for any losses, injuries, or damages from the display or use of this information.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://codecisions.com/post/2013/privacy/</link>
+      <pubDate>Fri, 05 Apr 2013 17:15:24 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/privacy/</guid>
+      <description>This site does not share personal information with third parties nor do we store any information about your visit to this blog other than to analyze and optimize your content and reading experience through the use of cookies.&#xA;You can turn off the use of cookies at anytime by changing your specific browser settings.&#xA;We are not responsible for republished content from this blog on other blogs or websites without our permission.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://codecisions.com/post/2013/about/</link>
+      <pubDate>Fri, 22 Mar 2013 13:14:14 +0000</pubDate>
+      <guid>https://codecisions.com/post/2013/about/</guid>
+      <description>CODEcisions is operated by Joshua Marble. Joshua has worked in the software industry for 20 years. He has worked on software that handles medical records, enterprise risk management, and internal operations for a freight carrier. Joshua is a Microsoft MCP in C# and works on technologies based on the Microsoft .Net Framework. Joshua is also a cloud architect developing solutions on AWS.&#xA;The content on this site is intended to help developers learn about various topics related to the field of software development.</description>
+    </item>
+    <item>
+      <title>Stacking Multiple IValueConverters</title>
+      <link>https://codecisions.com/post/2012/stacking-multiple-ivalueconverters/</link>
+      <pubDate>Wed, 24 Oct 2012 20:51:22 +0000</pubDate>
+      <guid>https://codecisions.com/post/2012/stacking-multiple-ivalueconverters/</guid>
+      <description>Problem I have had situations before where I needed to convert a binding value in multiple ways, but there was no way to apply multiple converters to the binding.&#xA;One example of this is wanting to bind the visibility of a control to the inverse of a boolean binding value. Without multiple converters there are only two options.&#xA;Less Than Ideal Solutions You can bind to a dummy property that is just the inverse of the real property.</description>
+    </item>
+    <item>
+      <title>Use A Custom IValueConverter To Bind A WPF TextBox To An Integer</title>
+      <link>https://codecisions.com/post/2012/custom-ivalueconverter-for-binding-a-wpf-textbox-to-an-integer/</link>
+      <pubDate>Wed, 23 May 2012 02:27:01 +0000</pubDate>
+      <guid>https://codecisions.com/post/2012/custom-ivalueconverter-for-binding-a-wpf-textbox-to-an-integer/</guid>
+      <description>In a WPF application, I had a TextBox bound to an integer property of a class. The TextBox only allows numeric input. The binding worked as expected except when the text was cleared. I found that when I cleared the text on my WPF TextBox, the binding would fail because it could not convert an empty string to an integer. This caused the previous value of the integer to remain set.</description>
+    </item>
+    <item>
+      <title>The Flaw of LINQ&#39;s Single Extension</title>
+      <link>https://codecisions.com/post/2012/the-flaw-of-linqs-single-extension/</link>
+      <pubDate>Tue, 06 Mar 2012 14:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2012/the-flaw-of-linqs-single-extension/</guid>
+      <description>The purpose of the Single extension methods is to thrown an exception if more than one item matches the query (or, in the parameterless implementation, more than one item exists in the enumerable). It seems obvious then that the method should stop enumerating once finding the second match, throwing the appropriate exception. And indeed this is how the parameterless implementation behaves.&#xA;The code in this first example calls Enumerator.MoveNext() twice. Once for the matching result, and once to find that a second result exists, throwing the exception.</description>
+    </item>
+    <item>
+      <title>Converting Hash Byte Array To String Output</title>
+      <link>https://codecisions.com/post/2011/converting-hash-byte-array-to-string-output/</link>
+      <pubDate>Tue, 18 Oct 2011 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2011/converting-hash-byte-array-to-string-output/</guid>
+      <description>Years ago, when I was learning how to use C# to calculate hash values, I learned that to properly output the byte array of a hash (or any other byte array) you had to iterate each byte and call byte.ToString(“X2”) method for the proper formatting, adding each byte string to a StringBuilder.&#xA;StringBuilder hash = new StringBuilder(); foreach (byte b in hashBytes) hash.Append(b.ToString(&amp;#34;X2&amp;#34;)); Output:&#xA;DC724AF18FBDD4E59189F5FE768A5F8311527050 Not long ago I was doing something similar and realized that you could use Linq’s Aggregate operator for the same thing in a more concise syntax.</description>
+    </item>
+    <item>
+      <title>Error Calling XmlWriter WriteValue With Guid Parameter</title>
+      <link>https://codecisions.com/post/2011/error-calling-xmlwriter-writevalue-with-guid-parameter/</link>
+      <pubDate>Thu, 22 Sep 2011 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2011/error-calling-xmlwriter-writevalue-with-guid-parameter/</guid>
+      <description>Calling XmlWriter.WriteValue() passing a Guid as the parameter throws an exception.&#xA;StringWriter stringWriter = new StringWriter(); XmlTextWriter writer = new XmlTextWriter(stringWriter); writer.WriteValue(Guid.NewGuid()); The exception thrown is:&#xA;InvalidCastException: Xml type &amp;#39;List of xdt:untypedAtomic&amp;#39; does not support a conversion from Clr type &amp;#39;Guid&amp;#39; to Clr type &amp;#39;String&amp;#39;. I don’t see any way around this except by casting the Guid to a string before passing to WriteValue(). Since this overload accepts an object type, even an extension method taking a Guid doesn’t help because the instance method is the one preferred by the compiler.</description>
+    </item>
+    <item>
+      <title>WPF ListBox Binding to CompositeCollection</title>
+      <link>https://codecisions.com/post/2011/wpf-listbox-binding-to-compositecollection/</link>
+      <pubDate>Thu, 01 Sep 2011 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2011/wpf-listbox-binding-to-compositecollection/</guid>
+      <description>I was using ListBox to display data bound to a collection, but I also wanted to be able to have an Add New item at the bottom of the list that the user could click to add a new item to the end of the list.&#xA;Coming from a simplified Windows Forms binding background, my first thought was to just modify the source collection to include my placeholder item. This worked fine functionally, but it caused the collection to not be accurate and caused extra work for me to add and remove the placeholder at certain times.</description>
+    </item>
+    <item>
+      <title>Color ConsoleTraceListener</title>
+      <link>https://codecisions.com/post/2011/color-consoletracelistener/</link>
+      <pubDate>Thu, 03 Mar 2011 14:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2011/color-consoletracelistener/</guid>
+      <description>I was watching trace output flow across a console window when I had the thought that it would be much easier to see warnings and errors if they were color coded. I started off to write a color version of ConsoleTraceListener but decided a quick Google search was in order to see if this had been done. Sure enough, I quickly found a clean implementation from Joshua Flanagan. His site has a good usage example with screenshots.</description>
+    </item>
+    <item>
+      <title>Formatted XmlWriterTraceListener</title>
+      <link>https://codecisions.com/post/2011/formatted-xmlwritertracelistener/</link>
+      <pubDate>Fri, 25 Feb 2011 14:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2011/formatted-xmlwritertracelistener/</guid>
+      <description>I was wanting the output of the XmlWriterTraceListener to be formatted, so I figured I could just adjust some settings similar to the XmlWriter class and get formatting, indentation, etc. However, upon viewing the XmlWriterTraceListener code in Reflector, I found that it writes out its XML using a plain TextWriter, which means no intelligent XML formatting. I imagine this is for performance reasons or some other good reason, but if you really want or need formatted log output, you’re out of luck.</description>
+    </item>
+    <item>
+      <title>Viewing Exceptions In The Immediate Window</title>
+      <link>https://codecisions.com/post/2011/viewing-exceptions-in-the-immediate-window/</link>
+      <pubDate>Mon, 31 Jan 2011 14:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2011/viewing-exceptions-in-the-immediate-window/</guid>
+      <description>I showed a coworker the other day how you can view exception objects even when you don’t have an exception variable. For those that don’t know this, it is a useful debugging tip to remember.&#xA;When handling exceptions, you can use the automatically declared $exception variable in the immediate window or watch windows to access properties of the most recent exception. This can be a handy tip when you need a call stack or any exception type and don’t know from the code.</description>
+    </item>
+    <item>
+      <title>Visual Studio Error E_INVALIDARG</title>
+      <link>https://codecisions.com/post/2010/visual-studio-error-e-invalidarg/</link>
+      <pubDate>Fri, 18 Jun 2010 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2010/visual-studio-error-e-invalidarg/</guid>
+      <description>I was trying to run some unit tests using MSTest but it could not load the test assemblies, reporting error code E_INVALIDARG. Google pointed me to a bunch of people talking about an ASP.Net web exception and clearing ASP.Net temporary files. Needless to say, this did not fix my problem since I am simply trying to run tests.&#xA;After repairing Visual Studio and exhausting all other efforts, I realized that the only related thing I had done lately was install Gallio to try out its test runner and MbUnit.</description>
+    </item>
+    <item>
+      <title>Studio Styles</title>
+      <link>https://codecisions.com/post/2010/studio-styles/</link>
+      <pubDate>Wed, 16 Jun 2010 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2010/studio-styles/</guid>
+      <description>A friend showed me a website today called studiostyles that is a collection of user-submitted Visual Studio color schemes. The site is nice and simple, and it provides download links for Visual Studio settings files for each Visual Studio version. I went ahead and entered the theme I use plus some modifications. I called it Dark Bliss. Check it out and let me know what you think.&#xA;http://studiostyles.info/schemes/dark-bliss</description>
+    </item>
+    <item>
+      <title>Enumerating IDataReader With LINQ</title>
+      <link>https://codecisions.com/post/2010/enumerating-idatareader-with-linq/</link>
+      <pubDate>Thu, 08 Apr 2010 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2010/enumerating-idatareader-with-linq/</guid>
+      <description>Today a coworker was trying to read an IDataReader into an anonymous type for an internal tool. This got me thinking about how LINQ methods could be useful when working with a DataReader since it’s basically a collection of records that you enumerate. In thinking about this, I came up with the DataReaderEnumerable class.&#xA;The DataReaderEnumerable is a simple class that wraps an IDataReader and implements IEnumerable. IEnumerable is a very simple interface, and the guts of the enumerating actually happen in the IEnumerator that is returned from the GetEnumerator() method.</description>
+    </item>
+    <item>
+      <title>How To Really Cancel TreeNode Check</title>
+      <link>https://codecisions.com/post/2010/how-to-really-cancel-treenode-check/</link>
+      <pubDate>Tue, 16 Mar 2010 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2010/how-to-really-cancel-treenode-check/</guid>
+      <description>The TreeView control can support checkboxes for nodes by setting the CheckBoxes property to true. In my custom TreeView with checkboxes, I need to “disable” some nodes and not allow them to be checked. At quick glance, the OnBeforeCheck virtual method seems to be the correct place to cancel the checking using the TreeViewCancelEventArgs .Cancel property. If you have come to the same conclusion then let me confirm that you are indeed correct that this is the place to cancel node checking.</description>
+    </item>
+    <item>
+      <title>Filter Stacking LINQ Expressions</title>
+      <link>https://codecisions.com/post/2009/filter-stacking-linq-expressions/</link>
+      <pubDate>Wed, 23 Dec 2009 14:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/filter-stacking-linq-expressions/</guid>
+      <description>Recently I was attempting to devise a way to filter down a large list with user generated conditions. These could be handled different ways depending on user input, so I couldn’t use a predefined lambda expression to filter the collection. What I wanted was a way to build an unknown number of lambda expressions from the user input and use them to filter the collection.&#xA;I ended up parsing the user input and adding each search expression to a List&amp;gt;.</description>
+    </item>
+    <item>
+      <title>A Catch in the Conditional Operator</title>
+      <link>https://codecisions.com/post/2009/a-catch-in-the-conditional-operator/</link>
+      <pubDate>Mon, 02 Nov 2009 14:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/a-catch-in-the-conditional-operator/</guid>
+      <description>Have you ever seen a conditional (ternary) operator seemingly evaluate the condition incorrectly?&#xA;Take a method that returns a display string using an object as input.&#xA;static string GetPersonSentence(Person p) { return &amp;#34;The person&amp;#39;s name is &amp;#34; + p != null ? p.Name : &amp;#34;Unknown&amp;#34;; } Now consider calling this method with an instance of a person and with a null value.&#xA;GetPersonSentence(new Person { Name = &amp;#34;Bob&amp;#34; }) GetPersonSentence(null) It seems like it should output fine both ways, but it breaks on the null value call.</description>
+    </item>
+    <item>
+      <title>Anonymous Delegates During Enumeration</title>
+      <link>https://codecisions.com/post/2009/anonymous-delegates-during-enumeration/</link>
+      <pubDate>Wed, 30 Sep 2009 15:04:09 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/anonymous-delegates-during-enumeration/</guid>
+      <description>I had no idea what to title this post, but that’s the best I could come up with. I want to highlight an interesting scenario that can occur when trying to use anonymous delegates while enumerating a collection.&#xA;Consider the code below that creates buttons in a FlowLayoutPanel and adds a click event handler as an anonymous delegate. (For the purposes of the example, I’m not using the sender Button text, which would be a simple way to handle this scenario.</description>
+    </item>
+    <item>
+      <title>Extensions For IEnumerable&lt;T&gt; Of Custom Classes</title>
+      <link>https://codecisions.com/post/2009/extensions-for-ienumerable-of-custom-classes/</link>
+      <pubDate>Wed, 23 Sep 2009 13:27:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/extensions-for-ienumerable-of-custom-classes/</guid>
+      <description>Imagine a scenario in which you have a class called ‘Order’ and each order has a collection of ‘LineItem’. You have a collection of Order objects and want to get all of the LineItem objects for the Order collection. You could easily do this using lambda expressions and Linq. But if this functionality is commonly needed, you might find yourself repeating your lambda expressions in several places.&#xA;The real problem is that you don’t have a good place to encapsulate that logic because you are always dealing with the IEnumerable rather than the order class.</description>
+    </item>
+    <item>
+      <title>Reading Command Line Arguments</title>
+      <link>https://codecisions.com/post/2009/reading-command-line-arguments/</link>
+      <pubDate>Fri, 11 Sep 2009 19:46:30 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/reading-command-line-arguments/</guid>
+      <description>If you write very many command line utilities, you have likely had to read command line arguments many times. Since this is very much the same thing every time, it seems like a waste to write rigid and app-specific arg parsing to each program.&#xA;Instead, I have created some classes to read argument arrays and turn them into something more usable. I have published these classes in a Github Gist. The first comment on the Gist describes how it works and has usage examples.</description>
+    </item>
+    <item>
+      <title>Action.Try() Extension Method</title>
+      <link>https://codecisions.com/post/2009/action-try-extension-method/</link>
+      <pubDate>Thu, 27 Aug 2009 14:53:27 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/action-try-extension-method/</guid>
+      <description>I read an article by John Teage on the Los Techies blog that gave me an idea. The article was about a method he used to wrap an action in a Try/Catch block for testing purposes. This seems like a handy method in some cases, but having a method means you have to be in that scope for the method to be accessible or it has to be a globally shared method.</description>
+    </item>
+    <item>
+      <title>To Delete Or Not To Delete</title>
+      <link>https://codecisions.com/post/2009/to-delete-or-not-to-delete/</link>
+      <pubDate>Tue, 04 Aug 2009 19:42:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/to-delete-or-not-to-delete/</guid>
+      <description>One of the decisions I regularly face when dealing with database data is whether to delete rows or mark them as deleted. On the one hand, the organized side of me really despises the idea of having old “deleted” records hanging around clogging up my queries. But, on the other hand, if you have the record there and for some reason determine that you need it back, it’s so nice to be able to just flip a flag and undo the delete.</description>
+    </item>
+    <item>
+      <title>Visual Studio Keyboard Shortcut Conflict In Windows 7</title>
+      <link>https://codecisions.com/post/2009/visual-studio-keyboard-shortcut-conflict-in-windows-7/</link>
+      <pubDate>Mon, 27 Jul 2009 20:16:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/visual-studio-keyboard-shortcut-conflict-in-windows-7/</guid>
+      <description>Many of my codevelopers at work have been using Windows 7 for many months now. Being heavily reliant on keyboard shortcuts in Visual Studio, one of the first things I noticed was that the shortcut to remove all breakpoints (Ctrl+Shift+F9) would not work. It turns out that Windows 7 uses that key combination to toggle Windows Aero on and off. This wasn’t immediately apparent to me since at the time my Aero effects were not working, so I saw no effect.</description>
+    </item>
+    <item>
+      <title>The Birth of CODEcisions</title>
+      <link>https://codecisions.com/post/2009/the-birth-of-codecisions/</link>
+      <pubDate>Mon, 27 Jul 2009 19:34:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/the-birth-of-codecisions/</guid>
+      <description>I’ve always liked websites that are creative in their combination of words. While thinking about all of the decisions I face every day at work, I came up with the idea of combining “code” and “decisions”. I’ve been wanting to get back into hosting my own website and blog, so I decided to go ahead and start back into it. I also am doing this partly in hopes that I would become more active in my posting.</description>
+    </item>
+    <item>
+      <title>ToolTip AutoPopDelay Failure</title>
+      <link>https://codecisions.com/post/2009/tooltip-autopopdelay-failure/</link>
+      <pubDate>Wed, 15 Apr 2009 13:56:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/tooltip-autopopdelay-failure/</guid>
+      <description>Most things in Microsoft’s .Net Framework are pretty intuitive and function as expected, but every so often you run across something that is just plain stupid. I’ve run across multiple problems with tooltips before, including a nasty one in the 1.1 framework in which the tooltip would not redisplay after it timed out and hid. But, alas, this is not what I’m talking about today. Today I want to talk about the frustrating nature of ToolTips and hiding their popup display after five seconds.</description>
+    </item>
+    <item>
+      <title>BlogEngine.Net 1.5 Release Candidate</title>
+      <link>https://codecisions.com/post/2009/blogenginenet-15-release-candidate/</link>
+      <pubDate>Tue, 07 Apr 2009 19:50:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/blogenginenet-15-release-candidate/</guid>
+      <description>I read Al Nyveldt’s post that a BlogEngine.Net 1.5 Release Candidate is available and immediately thought to download it and try it. Since my blog is very low traffic and not critical, I had no concerns about trying out the new version.&#xA;I followed Al’s basic instructions for upgrading to 1.4.5 and backed up my entire blog before wiping it clean and copying over the new files. Then I simply copied back my App_Data folder and all was well ….</description>
+    </item>
+    <item>
+      <title>NullReferenceException Using WCF</title>
+      <link>https://codecisions.com/post/2009/nullreferenceexception-using-wcf/</link>
+      <pubDate>Thu, 26 Mar 2009 15:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/nullreferenceexception-using-wcf/</guid>
+      <description>I was writing some WCF stub code creating web services and came across a strange NullReferenceException. I could tell from the call stack that it was something to do with the serialization, but couldn’t determine much else. Since it’s coming from the service side, I had real trouble tracking it down. I ended up having to brute force attack it by commenting code until the problem disappeared and then trying to figure it out.</description>
+    </item>
+    <item>
+      <title>Learning Lambdas - Tips and Tricks</title>
+      <link>https://codecisions.com/post/2009/learning-lambdas-tips-and-tricks/</link>
+      <pubDate>Thu, 12 Feb 2009 19:58:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/learning-lambdas-tips-and-tricks/</guid>
+      <description>Anyone who spends much time looking at lambda expressions quickly realizes that they rock and are very clean and useful. I find myself using simple ones every day, but I thought I’d lay out some quick tips for anyone that shares my fondness of lambdas. If you’ve never learned about lambdas, hopefully this will help you get started.&#xA;Introduction Lambda expressions are nothing more than a shorthand syntax for delegates. Anything that passes a Func&amp;lt;&amp;gt;, Predicate&amp;lt;&amp;gt;, Action&amp;lt;&amp;gt;, or any other delegate can use a lambda for a clean implementation.</description>
+    </item>
+    <item>
+      <title>Yield Return Practical Use</title>
+      <link>https://codecisions.com/post/2009/yield-return-practical-use/</link>
+      <pubDate>Thu, 22 Jan 2009 13:54:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/yield-return-practical-use/</guid>
+      <description>In my previous post about the “yield return” syntax, I highlighted my displeasure with the fact that it doesn’t actually enumerate the yielded values until accessed. In my opinion, this is dangerous for developers who do not clearly understand it’s use. The issue is that at face value it appears to simply be a shortcut for returning a collection, avoiding the need to explicitly declare the collection object and add items.</description>
+    </item>
+    <item>
+      <title>Visual Studio Fail</title>
+      <link>https://codecisions.com/post/2009/visual-studio-fail/</link>
+      <pubDate>Wed, 14 Jan 2009 20:51:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2009/visual-studio-fail/</guid>
+      <description>I’m not sure how you get this, but I got it. First time ever. Click ‘OK’ to drive a wooden stake through its head. “There are many ways to kill a zombie, but the most satisfying is stabbing them through the head with a wooden stake.” – Dwight Schrute</description>
+    </item>
+    <item>
+      <title>Framework Design Guidelines</title>
+      <link>https://codecisions.com/post/2008/framework-design-guidelines/</link>
+      <pubDate>Tue, 23 Dec 2008 14:07:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/framework-design-guidelines/</guid>
+      <description>I’ve been thinking lately about general framework design. Over the next year, we’ll be redesigning the underlying framework of our product for just about every level. Given this undertaking and my strong desire to make sure it’s designed in the most flexible and extensible way, I’m looking for principles that we can apply to our code.&#xA;I think “Framework Design Guidelines” by Krzysztof Cwalina and Brad Abrams is the resource I’m looking for.</description>
+    </item>
+    <item>
+      <title>Piriform – Makers of CCleaner And Other Awesome Tools</title>
+      <link>https://codecisions.com/post/2008/piriform-makers-of-ccleaner-and-other-awesome-tools/</link>
+      <pubDate>Wed, 17 Dec 2008 14:46:31 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/piriform-makers-of-ccleaner-and-other-awesome-tools/</guid>
+      <description>I first heard of CCleaner from Scott Hanselman in his “The Developer’s Quitting Your Job Technology Checklist”. It since has been updated regularly and has many nice and useful features, all for free. CCleaner is developed by Piriform, a company dedicated to providing quality software for free. CCLeaner gets some pretty good press on tech blogs, but I don’t see a lot of mention of Piriform’s other awesome free software, Defraggler and Recuva.</description>
+    </item>
+    <item>
+      <title>Improvements to Generic Sort Comparisons</title>
+      <link>https://codecisions.com/post/2008/improvements-to-generic-sort-comparisons/</link>
+      <pubDate>Mon, 24 Nov 2008 16:21:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/improvements-to-generic-sort-comparisons/</guid>
+      <description>I have written previously about my solution for providing sorting support to the DataGridView using a custom BindingList&amp;lt;T&amp;gt; and an implementation of my own ISortComparer&amp;lt;T&amp;gt; interface. In that solution, I had provided logic for trying to compare a few simple types generically using reflection. However, a coworker recently pointed out that trying to cast the property values to IComparable would allow for a more robust comparison that does not rely in switching the object’s type.</description>
+    </item>
+    <item>
+      <title>Comparison and Casting Operators</title>
+      <link>https://codecisions.com/post/2008/comparison-and-casting-operators/</link>
+      <pubDate>Tue, 11 Nov 2008 14:10:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/comparison-and-casting-operators/</guid>
+      <description>Today, I’m writing about operators in .Net because I think they are a very powerful but underutilized feature of the framework. I’ve worked with comparison operators ( == !=) in the past, but never really implemented them in a production project. However, the are also casting operators, which allow you to provide implicit or explicit conversion functionality between custom types.&#xA;Operators can be used to provide custom logic for comparison of objects.</description>
+    </item>
+    <item>
+      <title>The Action Delegate</title>
+      <link>https://codecisions.com/post/2008/the-action-delegate/</link>
+      <pubDate>Thu, 06 Nov 2008 19:06:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/the-action-delegate/</guid>
+      <description>If you do any asynchronous work in Windows Forms, you’ve probably used the MethodInvoker delegate a fair amount to invoke a method asynchronously. It’s convenient to have a built-in framework delegate so you aren’t defining your own everywhere. But what about when you’re not in the System.Windows.Forms namespace?&#xA;In the past, I had simply defined my own delegate with no parameters and used it. But why create your own simple delegate everywhere when you don’t need any parameters or other customizations on the delegate?</description>
+    </item>
+    <item>
+      <title>Where Is My New iGoogle</title>
+      <link>https://codecisions.com/post/2008/where-is-my-new-igoogle/</link>
+      <pubDate>Fri, 31 Oct 2008 15:21:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/where-is-my-new-igoogle/</guid>
+      <description>Several months ago I was (randomly) given the new iGoogle homepage before it was released. I liked the changes and got used to the new interface. However, a while back, around the time they released the new iGoogle design publicly, my iGoogle reverted to the old design.&#xA;Now I know a lot of people are saying they don’t like the new design and have good arguments against it, but I liked the new design fine and it’s my nature to want to run the latest and greatest version.</description>
+    </item>
+    <item>
+      <title>Yield Return Strange Behavior</title>
+      <link>https://codecisions.com/post/2008/yield-return-strange-behavior/</link>
+      <pubDate>Wed, 29 Oct 2008 15:53:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/yield-return-strange-behavior/</guid>
+      <description>I was working on generating some test data today and realize something about “yield return” that troubles me. It seems to call the iteration code multiple times. Examples are the easiest way to demonstrate this behavior, so check the console application below.&#xA;static void Main(string[] args) { IEnumerable&amp;lt;string&amp;gt; guids = GetGuids(4); foreach (string guid in guids) Console.WriteLine(guid); foreach (string guid in guids) Console.WriteLine(guid); Console.ReadLine(); } static IEnumerable&amp;lt;string&amp;gt; GetGuids(int count) { for (int i = 0; i &amp;lt; count; i++) { yield return Guid.</description>
+    </item>
+    <item>
+      <title>Force Delete Files or Folders In Windows</title>
+      <link>https://codecisions.com/post/2008/force-delete-files-or-folders-in-windows/</link>
+      <pubDate>Mon, 27 Oct 2008 19:19:40 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/force-delete-files-or-folders-in-windows/</guid>
+      <description>I was rearranging some music last week using a tag scanning program, but during the process I ended up with an empty folder with a funny name. I went to simply delete the folder, but Windows reported that it could not delete the folder because it was no longer available. First I tried using the command prompt to delete it, but that also failed. So, I naturally rebooted my machine to delete the folder on a fresh reboot.</description>
+    </item>
+    <item>
+      <title>WPF Unleashed</title>
+      <link>https://codecisions.com/post/2008/wpf-unleashed/</link>
+      <pubDate>Mon, 27 Oct 2008 12:00:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/wpf-unleashed/</guid>
+      <description>At work we bought two WPF books a while back in order to make sure we’re up to date on the latest development technologies. It seems to me like development books are really varying in quality and usefulness. I had started to read one of the books, “Applications = Code + Markup”, but it was quite useless in my opinion and I just couldn’t get anything out of it. In fact, it didn’t even discuss XAML until half way in (I skimmed).</description>
+    </item>
+    <item>
+      <title>DIY WCF Service Client</title>
+      <link>https://codecisions.com/post/2008/diy-wcf-service-client/</link>
+      <pubDate>Wed, 22 Oct 2008 20:18:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/diy-wcf-service-client/</guid>
+      <description>When writing WCF services, the “by the book” method of consuming a service is to add a Service Reference to your project and let Visual Studio codegen all the necessary classes including a service client. While this is convenient, it can pose some problems in more complex scenarios. As an example, I’ll walk you through an extremely simple situation using WCF Services to get GUIDs.&#xA;Let’s say that you have a service interface called IGuidService.</description>
+    </item>
+    <item>
+      <title>Visual Studio Search Tip</title>
+      <link>https://codecisions.com/post/2008/visual-studio-search-tip/</link>
+      <pubDate>Thu, 16 Oct 2008 13:40:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/visual-studio-search-tip/</guid>
+      <description>I accidentally found the handy Visual Studio key combination of Ctrl+I to do an incremental search. It’s a bit odd because you type your search in what appears to be the current cursor location. After you’ve completed typing your search term, press F3 to find the next result. It takes some getting used to, but try it out and you’ll see how it works much easier than trying to understand from what you read.</description>
+    </item>
+    <item>
+      <title>LINQ to SQL Error: The entity is not of the correct type.</title>
+      <link>https://codecisions.com/post/2008/linq-to-sql-error-the-entity-is-not-of-the-correct-type/</link>
+      <pubDate>Tue, 14 Oct 2008 15:36:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/linq-to-sql-error-the-entity-is-not-of-the-correct-type/</guid>
+      <description>I came across an error while working on a LINQ to SQL sample application. The error was “The entity is not of the correct type.” and I could not find much information online about it. The one blog post I found indicated that the problem was related to using a Database View for the data, but I was just accessing the table directly.&#xA;But there was one part of the article that caught my attention.</description>
+    </item>
+    <item>
+      <title>Use LINQ In .Net 2.0 Projects</title>
+      <link>https://codecisions.com/post/2008/use-linq-in-net-20-projects/</link>
+      <pubDate>Mon, 06 Oct 2008 14:02:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/use-linq-in-net-20-projects/</guid>
+      <description>I’ve been really enjoying LINQ lately but am unable to use it at work since we are still in the 2.0 framework for now. I came across a Google Code project that aims to implement LINQ functionality in .Net 2.0 using the same namespaces and methods as .Net 3.5 to make the transition seemless. It also provides the necessary classes to implement extension methods in .Net 2.0.&#xA;Note: Visual Studio 2008 is required in order to use this DLL in .</description>
+    </item>
+    <item>
+      <title>Extension Methods in .Net 2.0</title>
+      <link>https://codecisions.com/post/2008/extension-methods-in-net-20/</link>
+      <pubDate>Thu, 02 Oct 2008 20:34:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/extension-methods-in-net-20/</guid>
+      <description>I know I’m late with the news here, but I sure never heard of this until now. Did you know you can do extension methods in .Net 2.0 with a minor hack? I think Visual Studio 2008 might be required. All you have to do, as I learned from jaredpar’s blog, is create your own class called “ExtensionAttribute” in the correct namespace. After that, you have extension methods. That is crazy!</description>
+    </item>
+    <item>
+      <title>Binding Multiple Types To A DataGridView</title>
+      <link>https://codecisions.com/post/2008/binding-multiple-types-to-a-datagridview/</link>
+      <pubDate>Tue, 23 Sep 2008 13:56:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/binding-multiple-types-to-a-datagridview/</guid>
+      <description>I’ve been having a problem lately with DataGridView binding. I have an interface (IAllergen) which is implemented by three different classes (Drug, DrugIngredient, and AllergenGroup). I want to bind a BindingList to a DataGridView that has a column for one of the properties of IAllergen.&#xA;My problem with this binding situation is actually two fold. Initially, the implementations of IAllergen were explicit, meaning the interface members only are accessible when explicitly cast as IAllergen.</description>
+    </item>
+    <item>
+      <title>Dropbox Beta Invitation</title>
+      <link>https://codecisions.com/post/2008/dropbox-beta-invitation/</link>
+      <pubDate>Mon, 08 Sep 2008 16:05:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/dropbox-beta-invitation/</guid>
+      <description>I just received a beta invitation to the Dropbox file sync, store, and share service. I signed up and installed the software and I have to say it works pretty slick.&#xA;The software is pretty easy to use. It creates a ‘My Dropbox’ folder under your documents and anything in that folder will be synchronized with their servers. There is a public folder which allows public access to files via obscure URLs, but everything else is private.</description>
+    </item>
+    <item>
+      <title>Another Reason to Love C#</title>
+      <link>https://codecisions.com/post/2008/another-reason-to-love-c-sharp/</link>
+      <pubDate>Tue, 19 Aug 2008 16:11:13 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/another-reason-to-love-c-sharp/</guid>
+      <description>It’s been a while since I’ve had a programming post, so here’s a quick one. Just to show the flexibility of C#, check out the code for the Control.CanSelectCore() method in C#.&#xA;internal virtual bool CanSelectCore() { if ((this.controlStyle &amp;amp; ControlStyles.Selectable) != ControlStyles.Selectable) { return false; } for (Control control = this; control != null; control = control.parent) { if (!control.Enabled || !control.Visible) { return false; } } return true; } Notice how that FOR loop is used.</description>
+    </item>
+    <item>
+      <title>Blog Authoring Tools</title>
+      <link>https://codecisions.com/post/2008/blog-authoring-tools/</link>
+      <pubDate>Thu, 07 Aug 2008 14:08:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/blog-authoring-tools/</guid>
+      <description>I am a big fan of offline blog entry writing, especially since most web-based editors leave a lot to be desired and can be quite buggy. It didn&amp;rsquo;t take long with the WordPress editor for me to know I couldn&amp;rsquo;t actually use it to write anything. I was more hopeful with the BlogEngine.net editor, which is nicer than in WordPress, but it still wasn&amp;rsquo;t viable for any real authoring. Knowing that I wanted a simple but featured offline editor, I went on a quest to find all the offerings that were available.</description>
+    </item>
+    <item>
+      <title>BlogEngine.net Review</title>
+      <link>https://codecisions.com/post/2008/blogenginenet-review/</link>
+      <pubDate>Wed, 23 Jul 2008 12:36:11 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/blogenginenet-review/</guid>
+      <description>In my post about migrating from WordPress to BlogEngine.net, I mentioned some migration issues I was having but I really didn’t go into any details about BlogEngine.net itself. So I thought I should follow up with my experience and enjoyment of BlogEngine.net as a blogging platform. I first found out about BlogEngine.net from Brian Sullivan and Tim Franklin. Brian had good experiences with it compared to dasBlog and Tim Franklin settled on it and made it look and function very nicely as a total content solution.</description>
+    </item>
+    <item>
+      <title>CrossLoop</title>
+      <link>https://codecisions.com/post/2008/crossloop/</link>
+      <pubDate>Tue, 22 Jul 2008 20:22:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/crossloop/</guid>
+      <description>I found a new remote assistance type program called CrossLoop. It’s basically a TightVNC wrapper that hooks two people up using a unique session id.&#xA;The program is free and does not require an account or anything. Just install the application on both sides and share the session id. It connects quickly and seems to work very smoothly.</description>
+    </item>
+    <item>
+      <title>WebHost4Life Review</title>
+      <link>https://codecisions.com/post/2008/webhost4life-review/</link>
+      <pubDate>Mon, 21 Jul 2008 18:50:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/webhost4life-review/</guid>
+      <description>As I mentioned recently in my post about switching to BlogEngine.net, I said that I was switching to an ASP.NET web host, WebHost4Life. Now that it’s been a few weeks since I first signed up for WebHost4Life, I figured I could write a little review about my experiences so far.&#xA;Price/Features&#xA;I am on the Professional plan, which costs $9.95/month (paid annually). I get unlimited bandwidth and a good amount of features, including ASP.</description>
+    </item>
+    <item>
+      <title>How I Got Started in Programming</title>
+      <link>https://codecisions.com/post/2008/how-i-got-started-in-programming/</link>
+      <pubDate>Fri, 18 Jul 2008 13:43:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/how-i-got-started-in-programming/</guid>
+      <description>Brian Sullivan recently tagged me to write about my programming background, so here it is. It took me a while partly because I don&amp;rsquo;t usually like talking about myself. Also, I&amp;rsquo;ve been quite busy lately both at work and playing with my website.&#xA;How old were you when you started programming?&#xA;My first real programming was in high school, teaching myself at home. I was 16.&#xA;How did you get started in programming?</description>
+    </item>
+    <item>
+      <title>From Wordpress To BlogEngine.net</title>
+      <link>https://codecisions.com/post/2008/from-wordpress-to-blogengine/</link>
+      <pubDate>Wed, 16 Jul 2008 15:49:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/from-wordpress-to-blogengine/</guid>
+      <description>If you’ve seen some strange RSS activity recently, I apologize. I am wanting to get into ASP.NET (specifically the new MVC framework) since I don’t do web stuff at work and feel I ought to be better versed in it. My former web host was Linux/PHP, which worked fine for WordPress, but I was not really interested in PHP programming. So, I signed up for an account with WebHost4Life and at the same time restructured the family website.</description>
+    </item>
+    <item>
+      <title>TempFileCollection</title>
+      <link>https://codecisions.com/post/2008/tempfilecollection/</link>
+      <pubDate>Mon, 14 Jul 2008 18:07:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/tempfilecollection/</guid>
+      <description>In Scott Hanselman’s post on Garbage Collector and issues involved with playing sounds, I noticed a framework class, TempFileCollection, which I had never seen. He barely even mentioned it, not really giving much information about it, so I looked it up myself to see what it offers. You can read the MSDN entry on the class if you want the details, but I’m going to offer some quick information that I learned when trying the class in a console app.</description>
+    </item>
+    <item>
+      <title>Why I Switched from Vista to XP (and Back Again)</title>
+      <link>https://codecisions.com/post/2008/why-i-switched-from-vista-to-xp-and-back-again/</link>
+      <pubDate>Thu, 03 Jul 2008 16:07:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/why-i-switched-from-vista-to-xp-and-back-again/</guid>
+      <description>For the last few weeks, my work laptop (running Vista Business) had been functioning quite poorly. I was experiencing Windows Explorer crashes several times each day, shutting down was very slow, and in general things just were not stable. This is probably partially due to the fact that, like David, I am a beta junkie. So, I decided to do what any computer-savvy person would do in such a case – reformat and reinstall windows.</description>
+    </item>
+    <item>
+      <title>Restricting Generics To Be Not So Generic</title>
+      <link>https://codecisions.com/post/2008/restricting-generics-to-be-not-so-generic/</link>
+      <pubDate>Fri, 13 Jun 2008 14:06:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/restricting-generics-to-be-not-so-generic/</guid>
+      <description>Bear with me as this one might get long … Several times before I have run across a certain problem that I did not know how to handle. Allow me to describe the problem, then I’ll describe the two possible solutions to this problem and the inherent problems with each solution. Of course, what good would this post be without at least my final solution to these problems.&#xA;Consider having two very similar classes with slightly different functionality.</description>
+    </item>
+    <item>
+      <title>DataGridView Sorting Using Custom BindingList&lt;T&gt;</title>
+      <link>https://codecisions.com/post/2008/datagridview-sorting-using-custom-bindinglist/</link>
+      <pubDate>Thu, 05 Jun 2008 17:06:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/datagridview-sorting-using-custom-bindinglist/</guid>
+      <description>A while back I needed to solve the problem of making all of the DataGridView controls in our application sortable, but without needing to implement a custom sort in every single form. The problem is that the DataGridView, for reasons unknown to me, does not include default sorting. The only way I could find to get automatic sorting was if the data source was a DataSet or if the columns and rows are added manually rather than using a data source.</description>
+    </item>
+    <item>
+      <title>A Round With Witty</title>
+      <link>https://codecisions.com/post/2008/a-round-with-witty/</link>
+      <pubDate>Tue, 20 May 2008 19:05:00 +0000</pubDate>
+      <guid>https://codecisions.com/post/2008/a-round-with-witty/</guid>
+      <description>Recently, I started using Witty to keep track of Twitter updates. Previously, I had been using the Twitter support in Digsby, but despite my fondness of all things Digsby, I do find Witty to be a better overall Twitter experience. Plus, it has that sweet flashy WPF goodness.&#xA;Soon after using Witty, I found myself expecting a couple of things to work differently. First, it is practically a standard feature of software to be able to double-click on an item in a list and have an action take place on that item.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,8 +2,55 @@ baseURL = "https://codecisions.com/"
 disablePathToLower = true
 languageCode = "en-us"
 title = "CODEcisions"
+theme = "clarity"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  github = "jsmarble"
+  linkedin = "joshuamarble"
+  author = "Joshua Marble"
+  authorwebsite = "joshuamarble.net"
+  # avatar = "/images/avatar.jpeg"
+  # contact = "mailto:dwmkerr@gmail.com"
+  # bio = "Climber, Coder, Technology Consultant. Views expressed are my own."
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Guidance for the everyday developer."
+  # Logo image. This is displayed ogp image.
+  # logo = "/path/to/logo"
+  # favicon = "/images/favicon.ico"
+
+
+[Permalinks]
+  post = "/:slug"
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"

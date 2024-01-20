@@ -17,7 +17,6 @@ TimeSpan tenMinutes = TimeSpanInterval.Minutes.ToTimeSpan(10);
 ```
 
 This might not seem all that useful until you put it into the perspective of a user interface. Imagine a `ComboBox` whose items are the `TimeSpanInterval` values and bound to a property called `SelectedInterval`. Also imagine a `TextBox` bound to a integer property called `TimeValue`. The user enters “12” in the `TextBox` and selects “Minutes” from the `ComboBox`.  
-![timespaninterval-wpf](https://static.codecisions.com/timespaninterval-wpf.png)
 
 Without any other information or code, you can get a `TimeSpan` containing the user’s input. No switch statements or conditional logic required.  
 
