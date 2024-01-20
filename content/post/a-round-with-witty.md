@@ -1,0 +1,20 @@
++++
+date = 2008-05-20T19:05:00Z
+description = ""
+draft = false
+slug = "a-round-with-witty"
+title = "A Round With Witty"
+
++++
+
+
+Recently, I started using [Witty](http://wittytwitter.googlecode.com) to keep track of [Twitter](http://www.twitter.com) updates. Previously, I had been using the Twitter support in [Digsby](http://www.digsby.com), but despite my fondness of all things Digsby, I do find Witty to be a better overall Twitter experience. Plus, it has that sweet flashy [WPF](http://en.wikipedia.org/wiki/Windows_Presentation_Foundation) goodness.
+
+Soon after using Witty, I found myself expecting a couple of things to work differently. First, it is practically a standard feature of software to be able to double-click on an item in a list and have an action take place on that item. In the case of Witty and the list of tweets, I expected the action to be replying to the selected tweet. Second, many apps of this nature, including most [IM](http://en.wikipedia.org/wiki/Instant_messaging_&_messengers) apps, allow you to hide the main window from the taskbar to reduce visual clutter. Such option does not exist in Witty. Well, it didn’t at least. One great thing about Witty is that it is [free and open source](http://en.wikipedia.org/wiki/Free_and_open-source_software). So, armed with my [previous experience](http://code.google.com/u/jsmarble/) with Google Code and the motivation that [Brian](http://www.sullivansoftdev.com/blog/2008/03/22/MyFirstContributionToOpenSource.aspx) had successfully interacted with the Witty team and submitted a code change, I header over to the [Google Code](http://code.google.com) page for Witty and downloaded the source via [subversion](http://svn.tigris.org) (using [TortoiseSVN](http://tortoisesvn.net), naturally). Additionally, I have been wanting to get more involved with WPF, so this presented a good opportunity to just dive in and go for it.
+
+Let me explain the process needed to build Witty once you have the source (assuming you already have [Visual Studio 2008](http://msdn.microsoft.com/en-us/vstudio/products/default.aspx)). Open the solution file for Witty, build it. That’s it! It was the best experience I’ve ever had with downloading the source to a semi-complex project and trying to build it. All too often there are dependencies, project issues, or just plain code build errors. Witty was up and running in VS in seconds flat. So I made my changes and tried them out while fixing a few issues and doing some [refactoring](http://en.wikipedia.org/wiki/Refactoring) along the way. Overall it went pretty well, but I did make one interesting observation about open source projects (or large group projects in general). Different people code different ways. Being new to the project, I wanted to follow the code standards that were already in place. The problem was that the examples I looked at were often done differently. It seems that some core functionality was added, then someone else came along and added to it, but did it differently, so I wasn’t really sure which was I was expected to accomplish my task. Perhaps that is the problem, there is no expectation, or at least none that is easily communicated to members of a distributed team.
+
+Nonetheless, I tried to make my changes with minimal impact on the readability or maintainability of the code. Now all that is left is for me to get in touch with the project owners and at least get my changes committed if not become a member of the team. This was an interesting experience and made me feel more comfortable with the fact that I can be a valuable contributor to the open source / free software community from which I have taken so much. Hopefully you Witty users out there will see my changes show up in a future version.
+
+Update: After submitting my changes to the issue tracker, along with an svn patch, I never heard anything come from it. Who knows if it’ll ever make it into the product, but I’ve since stopped following Twitter, so I suppose it doesn’t really matter to me. It was a fun experience nonetheless.
+

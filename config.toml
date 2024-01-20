@@ -1,0 +1,9 @@
+baseURL = "https://codecisions.com/"
+disablePathToLower = true
+languageCode = "en-us"
+title = "CODEcisions"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
