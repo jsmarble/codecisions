@@ -32,7 +32,7 @@ In my previous post about the “yield return” syntax, I highlighted my disple
 
  Since I love code examples, download the attached sample project and put a breakpoint on line 30. Now, watch when you step over the method call to the method using yield return. Notice how you don’t actually enter the method? Now watch what happens when the collection is enumerated. Every time you move to the next item in the collection, the yield return on line 30 gets hit.
 
- So, I can see that there can be value in this behavior, but it sure feels weird still. Have another use for yield return? Leave a comment and explain.
+The source for the below [`Yield Return Example`](https://gist.github.com/jsmarble/9e0b835433a3d7f99f0895a27b4622ae) is available on gist.github.com.
 
-[Yield Return Example](http://static.codecisions.com/YieldReturnExample.7z)
+<script src="https://gist.github.com/jsmarble/9e0b835433a3d7f99f0895a27b4622ae.js"></script>
 

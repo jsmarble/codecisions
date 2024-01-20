@@ -19,7 +19,7 @@ I also saw that beta users have 10 invitations to send to other people, so check
 
 For more information about Dropbox or to sign up for the beta, visit their [website](http://www.getdropbox.com/) and their [blog](http://blog.getdropbox.com/).
 
-[![account_2](http://www.codecisions.com/wp-content/uploads/2008/09/account_2-300x241.png)](http://www.codecisions.com/wp-content/uploads/2008/09/account_2.png)
+![account_2](account_2.png)
 
-[![photos_2](http://www.codecisions.com/wp-content/uploads/2008/09/photos_2-300x171.png)](http://www.codecisions.com/wp-content/uploads/2008/09/photos_2.png)
+![photos_2](photos_2.png)
 
