@@ -26,6 +26,25 @@ theme = "clarity"
   # logo = "/path/to/logo"
   # favicon = "/images/favicon.ico"
 
+#[[menu.main]]
+#    name = "Contact"
+#    url = "/page/contact"
+#    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Terms"
+    url = "/page/terms/"
+    weight = 3
+
+[[menu.main]]
+    name = "Privacy"
+    url = "/page/privacy/"
+    weight = 4
 
 [Permalinks]
   post = "/:slug"

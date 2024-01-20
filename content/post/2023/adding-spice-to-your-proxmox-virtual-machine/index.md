@@ -25,7 +25,7 @@ sudo pamac install spice-vdagent
 
 Then shutdown the VM and change the hardware setting for the "Display" hardware tos select SPICE for "Graphic card" and enter a value for "Memory (MiB)". The Proxmox docs say "32 MiB is plenty for 4K resolutions."
 
-{{< figure src="__GHOST_URL__/content/images/2023/09/image.png" caption="Select SPICE" >}}
+{{< figure src="image.png" caption="Select SPICE" >}}
 
 Now start the VM and you are ready to connect. But first, you need a client app. On your client machine, install `virt-viewer`. For me, using Ubuntu, it would be
 
@@ -35,7 +35,7 @@ sudo apt -y install virt-viewer
 
 To connect, you need a connection profile file, which you can get from Proxmox. Simply view the VM console in the Proxmox web console and select "Spice".
 
-{{< figure src="__GHOST_URL__/content/images/2023/09/image-1.png" >}}
+{{< figure src="image-1.png" >}}
 
 That will download a file that will open using `virt-viewer` and instantly connect you to the VM. And this time you will notice a substantial improvement in graphics, responsiveness, and general user experience. The screen will even dynamically resize to fit your viewer window. (Note: I only found this to be true using the Gnome version of Manjaro. The Budgie desktop was not so kind). In fact, it will almost feel like you are sitting in front of the real computer. If you just put it in full-screen ...
 

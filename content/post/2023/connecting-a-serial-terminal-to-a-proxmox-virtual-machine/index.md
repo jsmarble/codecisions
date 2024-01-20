@@ -15,7 +15,7 @@ In this article, we will explore how to setup serial terminal access to a virtua
 
 In the Proxmox web admin, find the target VM and note its VM ID and Proxmox host.
 
-{{< figure src="__GHOST_URL__/content/images/2023/08/image-2.png" caption="In this example, the VM ID is 118 and the Proxmox host is pve4" >}}
+{{< figure src="image-2.png" caption="In this example, the VM ID is 118 and the Proxmox host is pve4" >}}
 
 #### Edit the VM grub config
 
@@ -37,7 +37,7 @@ On the Proxmox host for the VM you are editing, add the serial hardware using th
 
 You can confirm the hardware was added by checking the _Hardware_ settings for the VM. _Note: If the Serial Port shows in red then you need to shutdown the VM to let the hardware change apply. A simple reboot is not enough, which is why the instructions above said to shutdown the VM._
 
-{{< figure src="__GHOST_URL__/content/images/2023/08/image.png" >}}
+{{< figure src="image.png" >}}
 
 #### Start the VM and Connect to the Serial Terminal
 
@@ -47,7 +47,7 @@ You will see the boot output and eventually the Linux login prompt. You can logi
 
 Note: If you start the `qm terminal 104` command after boot, it will appear blank because nothing has been written to the serial console. Press `[Enter]` a couple of times and you will see the Linux login prompt to confirm you are connected.
 
-{{< figure src="__GHOST_URL__/content/images/2023/08/image-1.png" caption="Press [Enter] to cause the serial terminal to receive output" >}}
+{{< figure src="image-1.png" caption="Press [Enter] to cause the serial terminal to receive output" >}}
 
 Press `Ctrl+o` to end the terminal session. (That's O as in Oval, not 0 as in zero).
 

@@ -11,7 +11,7 @@ All content provided on this site is for informational purposes only. The owner 
 
 The owner of codecisions.com will not be liable for any errors or omissions in this information nor for the availability of this information. The owner will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-Usage of this site requires acceptance of the [privacy policy](__GHOST_URL__/privacy).
+Use of this site requires acceptance of the [privacy policy](/page/privacy).
 
 This terms and conditions is subject to change at any time with or without notice.
 
