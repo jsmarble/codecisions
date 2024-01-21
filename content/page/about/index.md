@@ -10,5 +10,5 @@ CODEcisions is operated by Joshua Marble. Joshua has worked in the software indu
 
 The content on this site is intended to help developers learn about various topics related to the field of software development. Post frequency will vary depending on available time and available topics.
 
-Use of this site is subject to the [Terms of Use](/page/terms).
+Use of this site is subject to the [Terms of Use](/terms).
 
