@@ -1,5 +1,4 @@
 ---
-date: "2013-04-05T17:17:00Z"
 description: ""
 draft: false
 slug: terms

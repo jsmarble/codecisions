@@ -1,5 +1,4 @@
 ---
-date: "2013-04-05T17:15:24Z"
 description: ""
 draft: false
 slug: privacy

@@ -31,26 +31,27 @@ theme   = ["github.com/adityatelange/hugo-PaperMod"]
 
 #[[menu.main]]
 #    name = "Contact"
-#    url = "/page/contact"
+#    url = "/contact"
 #    weight = 1
 
 [[menu.main]]
     name = "About"
-    url = "/page/about/"
+    url = "/about/"
     weight = 2
 
 [[menu.main]]
     name = "Terms"
-    url = "/page/terms/"
+    url = "/terms/"
     weight = 3
 
 [[menu.main]]
     name = "Privacy"
-    url = "/page/privacy/"
+    url = "/privacy/"
     weight = 4
 
 [Permalinks]
   post = "/:slug"
+  page = "/:slug"
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
