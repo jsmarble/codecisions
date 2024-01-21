@@ -13,7 +13,9 @@ Worker nodes are intended to be configured by the master node, therefore there i
 
 Since we already installed Kubernetes on each node in [a previous post](__GHOST_URL__/baremetal-kubernetes-cluster-installing-kubernetes/), we're ready to join the nodes to the cluster. We need the join command from the [previous post](__GHOST_URL__/baremetal-kubernetes-cluster-create-the-cluster/) when we installed k8s. Simply run it using `sudo`, and it will join the cluster.
 
-`kubeadm join 192.168.1.150:6443 --token tf472d.yuy8rqkjqcgxs29w --discovery-token-ca-cert-hash sha256:0d969538bfef1ae75ba5c327e7148a18c49f9e762632141edf4d432ada895942`
+```bash
+kubeadm join 192.168.1.150:6443 --token tf472d.yuy8rqkjqcgxs29w --discovery-token-ca-cert-hash sha256:0d969538bfef1ae75ba5c327e7148a18c49f9e762632141edf4d432ada895942`
+```
 
 After it finishes, you can run `kubectl get nodes` on the master node and see the new node in the cluster.
 

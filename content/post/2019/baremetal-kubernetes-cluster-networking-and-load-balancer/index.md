@@ -29,7 +29,7 @@ This will deploy the components of MetalLB, but they will be in a pending state,
 
 Save the following `yaml` into a file named `metallb-config.yaml`. Substitute an appropriate address range based on your network and which IP addresses could be reserved for the load balancer. In my case, my DHCP server does not issue addresses in this range, and my DHCP reservations also do not use these addresses.
 
-```
+```yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:

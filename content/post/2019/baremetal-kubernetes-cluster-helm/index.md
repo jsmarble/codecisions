@@ -23,7 +23,7 @@ First, create a service account for tiller.
 
 Then, create a `tiller-clusterrolebinding.yaml` file with these contents:
 
-```
+```yaml
 kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1beta1
 metadata:
@@ -40,7 +40,7 @@ roleRef:
 
 Finally, deploy the `ClusterRoleBinding`, and init Helm again to use the service account.
 
-```
+```bash
 kubectl create -f tiller-clusterrolebinding.yaml
 helm init --service-account tiller --upgrade
 ```

@@ -30,7 +30,9 @@ Before your cluster can become operational, it needs to have a pod network confi
 
 The most common homelab pod network is called [`flannel`](https://coreos.com/flannel/docs/latest/kubernetes.html). It can easily be added to your cluster by applying its configuration yaml file to the cluster. To apply flannel to your cluster, run this [apply command](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands). _Note: If you changed the CIDR above, you will need to apply a modified copy of the file linked below with the correct CIDR._
 
-`kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml`
+```bash
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
+```
 
 You can see the pods that are deploying by running `kubectl get pods -n kube-system`.
 

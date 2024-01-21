@@ -29,7 +29,7 @@ Our minimal server does not yet have git, so first we must install it.
 
 Then, we can clone the `nginx-ingress` repo and install the chart. Pass the parameter `--set controller.service.loadBalancerIP=192.168.1.160` to request the LoadBalancer to assign a specific IP address. This will be useful because we need a known IP to port-foward from the router.
 
-```
+```bash
 git clone https://github.com/nginxinc/kubernetes-ingress/
 cd kubernetes-ingress/deployments/helm-chart
 helm install --name nginx-ingress --namespace nginx-ingress --set controller.service.loadBalancerIP=192.168.1.160 .

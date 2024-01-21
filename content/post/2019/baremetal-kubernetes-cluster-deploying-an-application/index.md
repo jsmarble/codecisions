@@ -97,7 +97,7 @@ The only piece missing now is the Ingress that will allow our host request to th
 
 Save the following `yaml` into a file named `tautulli-ingress.yaml`:
 
-```
+```yaml
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:

@@ -51,7 +51,7 @@ The `PV` is now ready to be bound to a `PVC`.
 
 Save the following `yaml` into a file named `nfs-pvc.yaml`. Note the `volumeName` parameter matches the `name` parameter of the above `PV`. If you create additional `PV` and `PVC` objects later, be sure to use the corresponding name.
 
-```
+```yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:

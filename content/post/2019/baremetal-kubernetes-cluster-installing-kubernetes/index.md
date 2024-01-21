@@ -15,7 +15,7 @@ I have [created a script](https://gitlab.com/snippets/1909377) to make this easi
 
 To use my script to install k8s, use these commands.
 
-```
+```bash
 wget -O k8s-debian.sh https://gitlab.com/snippets/1909377/raw
 sudo sh k8s-debian.sh
 ```
