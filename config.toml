@@ -26,8 +26,8 @@ theme   = ["github.com/adityatelange/hugo-PaperMod"]
   # Short subtitle/tagline. This is displayed in the header.
   subtitle = "Guidance for the everyday developer."
   # Logo image. This is displayed ogp image.
-  # logo = "/path/to/logo"
-  # favicon = "/images/favicon.ico"
+  logo = "/favicon16.png"
+  favicon = "/favicon.ico"
 
 #[[menu.main]]
 #    name = "Contact"
