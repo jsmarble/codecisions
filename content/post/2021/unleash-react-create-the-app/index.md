@@ -7,15 +7,13 @@ title: Unleash React - Create the App
 ---
 
 
-This post is [part of a series](__GHOST_URL__/unleash-react/) on adding feature flagging to a React application using [Unleash](https://www.getunleash.io/).
-
-{{< bookmark url="__GHOST_URL__/unleash-react/" title="Unleash React - What is Feature Flagging?" description="Feature flags are a powerful tool in the developer’s toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This m…" icon="__GHOST_URL__/favicon.ico" author="Joshua Marble" publisher="CODEcisions" thumbnail="https://gitlab.com/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" caption="" >}}
+This post is [part of a series](/unleash-react/) on adding feature flagging to a React application using [Unleash](https://www.getunleash.io/).
 
 In this post, we're going to create the [React application](https://reactjs.org) and hide a feature behind a feature flag.
 
 ---
 
-To get started, we need a sample application. Any React app will do, but we'll just use the `.NET5` template for React. Make sure you have the `.NET5`  [SDK](https://dotnet.microsoft.com/download/dotnet/5.0) installed.
+To get started, we need a sample application. Any React app will do, but we'll just use the `.NET5` template for React. Make sure you have the [.NET5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0) installed.
 
 ```bash
 dotnet new react -o unleash-react
@@ -23,7 +21,7 @@ cd unleash-react
 dotnet run
 ```
 
-After it starts, go to `[https://localhost:5001](https://localhost:5001)` and see the React app running.
+After it starts, go to [https://localhost:5001](https://localhost:5001) and see the React app running.
 
 At the top-right is a navigation link to _Fetch data_ that exercises the sample Weather controller in the template. We're going to hide that behind a feature flag.
 
@@ -39,7 +37,7 @@ First, we need to disable `https` redirection in `Startup.cs` because the Unleas
 
 ---
 
-Next, we need to install the `unleash-proxy-client`  [package](https://github.com/unleash-hosted/unleash-proxy-client-js) from `npm`.
+Next, we need to install the `unleash-proxy-client` [package](https://github.com/unleash-hosted/unleash-proxy-client-js) from `npm`.
 
 ```bash
 cd ClientApp
@@ -55,7 +53,7 @@ cd ClientApp/src
 touch Unleash.js
 ```
 
-Save the below `javascript` code to `Unleash.js`. Change `'some-secret'` if you changed it when [configuring the Unleash Proxy](__GHOST_URL__/unleash-react-configuring-unleash-proxy/).
+Save the below `javascript` code to `Unleash.js`. Change `some-secret` if you changed it when [configuring the Unleash Proxy](/unleash-react-configuring-unleash-proxy/).
 
 ```javascript
 import { UnleashClient } from 'unleash-proxy-client';
@@ -104,7 +102,7 @@ unleash.on('update', () => {
 
 ---
 
-Now execute `dotnet run` again from the root project folder and navigate to `[http://localhost:5000](http://localhost:5000)`.
+Now execute `dotnet run` again from the root project folder and navigate to [http://localhost:5000](http://localhost:5000).
 
 You should not see the _Fetch data_ link appear (unless you already enabled the `weather` feature toggle).
 

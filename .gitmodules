@@ -1,3 +1,6 @@
 [submodule "themes/clarity"]
 	path = themes/clarity
 	url = git@github.com:chipzoller/hugo-clarity
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git

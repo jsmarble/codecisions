@@ -1,0 +1,12 @@
+github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20231213184355-64837e0b518c h1:HvrrIruMoPP5hdfnnH2qdadVA0/Ijs6nyw5+Fj1id3Y=
+github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20231213184355-64837e0b518c/go.mod h1:yKhAWv9XRXZaYs/yBBMIHMAijyvAc7VLD7n+YgtaHEg=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20240108194352-8a718f7418c5 h1:/iR9mGKXt5ugD3o98kcjX0Zujt4BlPiiAkKynrbZTOU=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20240108194352-8a718f7418c5/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20240114144012-d6cd6d91757c h1:bTkD4nPWN6f8s8iTV0NDQHzlwwfSAOA5MLAfZmjww4A=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20240114144012-d6cd6d91757c/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/chipzoller/hugo-clarity v0.0.0-20231231125604-4b08ddee9984 h1:14cYhIh6ycp7KElvyxRDITiDMZhXiszlAIaJ8tZMTos=
+github.com/chipzoller/hugo-clarity v0.0.0-20231231125604-4b08ddee9984/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
+github.com/tomowang/hugo-theme-tailwind v0.0.0-20240118160400-f8e7dd5b17fb h1:LDQUssJE/E8JSMA+HDVD54Bm/Lxb6bv+3BuFO9UyuwU=
+github.com/tomowang/hugo-theme-tailwind v0.0.0-20240118160400-f8e7dd5b17fb/go.mod h1:iV6S2tqk04A+E3fBDgAL5CWBKXNv5CUxxXIbgq4nljw=
+github.com/vimux/binario v0.0.0-20231209190444-2558f6bbde56 h1:cEkUrL5XYiO3NGpk/M801Gw0DtcdDltagNR6fWcX4VM=
+github.com/vimux/binario v0.0.0-20231209190444-2558f6bbde56/go.mod h1:JZUBmjd/7f1Ap2i9G8t/86skq96kgM4YNU4VW02rszM=

@@ -2,7 +2,10 @@ baseURL = "https://codecisions.com/"
 disablePathToLower = true
 languageCode = "en-us"
 title = "CODEcisions"
-theme = "clarity"
+#theme  = ["github.com/Mitrichius/hugo-theme-anubis"]
+#theme  = ["github.com/chipzoller/hugo-clarity"]
+#theme  = ["github.com/vimux/binario"]
+theme   = ["github.com/adityatelange/hugo-PaperMod"]
 
 [markup]
   [markup.goldmark]

@@ -7,9 +7,7 @@ title: Unleash React - Running the Server
 ---
 
 
-This post is [part of a series](__GHOST_URL__/unleash-react/) on adding feature flagging to a React application using [Unleash](https://www.getunleash.io/).
-
-{{< bookmark url="__GHOST_URL__/unleash-react/" title="Unleash React - What is Feature Flagging?" description="Feature flags are a powerful tool in the developer’s toolbox. Instead of releasing code in large features and risky deployment operations, new features can be developing incrementally and turned on and off in production by toggling a flag, selecting certain users, or other similar strategies. This m…" icon="__GHOST_URL__/favicon.ico" author="Joshua Marble" publisher="CODEcisions" thumbnail="" caption="" >}}
+This post is [part of a series](/unleash-react/) on adding feature flagging to a React application using [Unleash](https://www.getunleash.io/).
 
 In this post, we'll learn how to get Unleash server running in docker.
 
@@ -46,5 +44,5 @@ services:
 
 Once your `docker-compose` command completes, you will have an Unleash server running on port `4242` on your docker host. Navigate to `http://[docker_host_ip]:4242` in your browser and you will see the Unleash server login page. Login with username `admin` and password `unleash4all`.
 
-At this point you can play around with the features of Unleash server, but we will continue on to [configuring Unleash Proxy](__GHOST_URL__/unleash-react-configuring-unleash-proxy/).
+At this point you can play around with the features of Unleash server, but we will continue on to [configuring Unleash Proxy](/unleash-react-configuring-unleash-proxy/).
 
