@@ -28,6 +28,8 @@ theme   = ["github.com/adityatelange/hugo-PaperMod"]
   # Logo image. This is displayed ogp image.
   logo = "/favicon16.png"
   favicon = "/favicon.ico"
+  [params.assets]
+    disableFingerprinting = true
 
 #[[menu.main]]
 #    name = "Contact"
